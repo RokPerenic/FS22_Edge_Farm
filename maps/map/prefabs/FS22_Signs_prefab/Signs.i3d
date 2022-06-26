@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Mod Map FR" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="5" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="3" filename="$data/shared/default_normal.png"/>
+    <File fileId="14" filename="$data/shared/default_specular.png"/>
+    <File fileId="15" filename="Textures/CITY_Change_ME_GIANTS.dds"/>
+    <File fileId="10" filename="Textures/DINScrews_Mat_normal.dds"/>
+    <File fileId="11" filename="Textures/DINScrews_Mat_specular.dds"/>
+    <File fileId="17" filename="Textures/INFO_Change_ME_GIANTS.dds"/>
+    <File fileId="18" filename="Textures/WAY_Change_ME_SOFTWARE.dds"/>
+    <File fileId="4" filename="Textures/Znacky_Specular.dds"/>
+    <File fileId="13" filename="Textures/Znacky_diffuse.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Cesta" materialId="4" customShaderId="5" customShaderVariation="colorMask">
+      <Texture fileId="18"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="14"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="0 0 0 20"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="City_Change_ME" materialId="5" customShaderId="5" customShaderVariation="colorMask">
+      <Texture fileId="15"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="14"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0 0 0 20"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="DINScrews_Mat" materialId="6" diffuseColor="1 1 1 1" customShaderId="5" customShaderVariation="colorMask">
+      <Normalmap fileId="10"/>
+      <Glossmap fileId="11"/>
+      <CustomParameter name="RDT" value="1 0.22 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="i3d_default_material" materialId="7" diffuseColor="0.8 0.8 0.8 1" specularColor="0.6 1 0">
+    </Material>
+    <Material name="Informativni" materialId="8" customShaderId="5" customShaderVariation="colorMask">
+      <Texture fileId="17"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="14"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="lambert1" materialId="9" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="Prechod" materialId="10" diffuseColor="0.8 0.8 0.8 1" specularColor="1 1 0" customShaderId="5">
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="Znacky" materialId="11" customShaderId="5" customShaderVariation="colorMask">
+      <Texture fileId="13"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="14"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0 0 0 20"/>
+      <CustomParameter name="colorMat1" value="0 0 0 20"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="Znacky_mat" materialId="12" diffuseColor="0.8 0.8 0.8 1" customShaderId="5" customShaderVariation="colorMask">
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.3 0.3 0.3 4"/>
+      <CustomParameter name="colorMat1" value="0 0 0 20"/>
+      <CustomParameter name="colorMat2" value="0 0.087 0.242 20"/>
+      <CustomParameter name="colorMat3" value="0 0.105 0.262 20"/>
+      <CustomParameter name="colorMat4" value="0 0 0 1"/>
+      <CustomParameter name="colorMat5" value="0.93 0.462 0 20"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Signs.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="Znacky" clipDistance="120" nodeId="142">
+        <TransformGroup name="Prednost" clipDistance="120" nodeId="143">
+          <TransformGroup name="Dej_Prednost" lockedgroup="true" translation="0 0 -6.753" nodeId="144">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="145">
+              <Shape shapeId="1" name="colMain" dynamic="true" collisionMask="223" nodeId="146" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="2" name="Dej_Prednost" translation="0 0.000169992 0" clipDistance="120" nodeId="147" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="3" name="Dej_Prednost" translation="0 2.762 0" clipDistance="120" nodeId="148" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="4" name="SroubyDejPrednost" translation="-2.32831e-10 -2.38419e-07 0" clipDistance="120" nodeId="149" materialIds="6"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Uprav_prednost" lockedgroup="true" translation="0.75 0 -6.753" nodeId="150">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="151">
+              <Shape shapeId="5" name="colMain" dynamic="true" collisionMask="223" nodeId="152" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="6" name="Uprav_prednost" translation="0 0.000169992 0" clipDistance="120" nodeId="153" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="7" name="Uprav_prednost" translation="0 2.762 0" clipDistance="120" nodeId="154" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="8" name="Sroubyuprav_prednost" translation="0 -5.18231e-07 0" clipDistance="120" nodeId="155" materialIds="6"/>
+                    <Shape shapeId="9" name="Upravujici_prednost" translation="0.05064 0.0429001 6.62388e-08" clipDistance="120" nodeId="156" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="Vystrazna" clipDistance="120" nodeId="157">
+          <TransformGroup name="Vystrazna" lockedgroup="true" translation="-3 0 -7.922" nodeId="158">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="159">
+              <Shape shapeId="5" name="colMain" dynamic="true" collisionMask="223" nodeId="160" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="10" name="Vystrazna" translation="0 0.000170231 0" clipDistance="120" nodeId="161" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="11" name="Vystrazna" translation="0 2.762 9.53674e-07" rotation="-180 -0 0" clipDistance="120" nodeId="162" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="12" name="SroubyVystrazna" translation="-2.32831e-10 -4.76837e-07 -0.000319898" rotation="3.64247e-06 -0 0" clipDistance="120" nodeId="163" materialIds="6"/>
+                    <Shape shapeId="13" name="Zvirata" translation="0 0 -0.000319898" rotation="-180 -0 0" clipDistance="120" nodeId="164" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Vystrazna1" lockedgroup="true" translation="0 0 -7.922" nodeId="165">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="166">
+              <Shape shapeId="5" name="colMain" dynamic="true" collisionMask="223" nodeId="167" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="14" name="Vystrazna1" translation="0 0.000170231 0" clipDistance="120" nodeId="168" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="11" name="Vystrazna" translation="0 2.762 4.76837e-07" rotation="-180 -0 0" clipDistance="120" nodeId="169" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="12" name="SroubyVystrazna" translation="-2.32831e-10 -4.76837e-07 -0.000319898" rotation="3.64247e-06 -0 0" clipDistance="120" nodeId="170" materialIds="6"/>
+                    <Shape shapeId="15" name="Jine_nebezpeci" translation="0 0 5.9761e-08" rotation="-180 -0 0" clipDistance="120" nodeId="171" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Vystrazna2" lockedgroup="true" translation="0.75 0 -7.922" nodeId="172">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="173">
+              <Shape shapeId="5" name="colMain" dynamic="true" collisionMask="223" nodeId="174" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="16" name="Vystrazna2" translation="0 0.000170231 0" clipDistance="120" nodeId="175" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="11" name="Vystrazna" translation="0 2.762 9.53674e-07" rotation="-180 -0 0" clipDistance="120" nodeId="176" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="12" name="SroubyVystrazna" translation="-2.32831e-10 -4.76837e-07 -0.000319898" rotation="3.64247e-06 -0 0" clipDistance="120" nodeId="177" materialIds="6"/>
+                    <Shape shapeId="17" name="Nerovnost_vozovky" translation="0 0 -0.000319898" rotation="-180 -0 0" clipDistance="120" nodeId="178" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Vystrazna3" lockedgroup="true" translation="1.5 0 -7.922" nodeId="179">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="180">
+              <Shape shapeId="5" name="colMain" dynamic="true" collisionMask="223" nodeId="181" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="18" name="Vystrazna3" translation="0 0.000170231 0" clipDistance="120" nodeId="182" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="11" name="Vystrazna" translation="0 2.762 9.53674e-07" rotation="-180 -0 0" clipDistance="120" nodeId="183" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="12" name="SroubyVystrazna" translation="-2.32831e-10 -4.76837e-07 -0.000319898" rotation="3.64247e-06 -0 0" clipDistance="120" nodeId="184" materialIds="6"/>
+                    <Shape shapeId="19" name="Zuzeni" translation="0 0 -0.000319898" rotation="-180 -0 0" clipDistance="120" nodeId="185" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Vystrazna4" lockedgroup="true" translation="2.25 0 -7.922" nodeId="186">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="187">
+              <Shape shapeId="5" name="colMain" dynamic="true" collisionMask="223" nodeId="188" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="20" name="Vystrazna4" translation="0 0.000170231 0" clipDistance="120" nodeId="189" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="11" name="Vystrazna" translation="0 2.762 9.53674e-07" rotation="-180 -0 0" clipDistance="120" nodeId="190" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="12" name="SroubyVystrazna" translation="-2.32831e-10 -4.76837e-07 -0.000319898" rotation="3.64247e-06 -0 0" clipDistance="120" nodeId="191" materialIds="6"/>
+                    <Shape shapeId="21" name="Zatacka_leva" translation="0 0 -0.000319898" rotation="-180 -0 0" clipDistance="120" nodeId="192" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Vystrazna5" lockedgroup="true" translation="3 0 -7.922" nodeId="193">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="194">
+              <Shape shapeId="5" name="colMain" dynamic="true" collisionMask="223" nodeId="195" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="22" name="Vystrazna5" translation="0 0.000170231 0" clipDistance="120" nodeId="196" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="11" name="Vystrazna" translation="0 2.762 9.53674e-07" rotation="-180 -0 0" clipDistance="120" nodeId="197" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="12" name="SroubyVystrazna" translation="-2.32831e-10 -4.76837e-07 -0.000319898" rotation="3.64247e-06 -0 0" clipDistance="120" nodeId="198" materialIds="6"/>
+                    <Shape shapeId="23" name="Zatacka_prava_dvojita" translation="0 0 -0.000319898" rotation="-180 -0 0" clipDistance="120" nodeId="199" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Vystrazna6" lockedgroup="true" translation="3.75 0 -7.922" nodeId="200">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="201">
+              <Shape shapeId="5" name="colMain" dynamic="true" collisionMask="223" nodeId="202" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="22" name="Vystrazna6" translation="0 0.000170231 0" clipDistance="120" nodeId="203" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="11" name="Vystrazna" translation="0 2.762 9.53674e-07" rotation="-180 -0 0" clipDistance="120" nodeId="204" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="12" name="SroubyVystrazna" translation="-2.32831e-10 -4.76837e-07 -0.000319898" rotation="3.64247e-06 -0 0" clipDistance="120" nodeId="205" materialIds="6"/>
+                    <Shape shapeId="24" name="Zver" translation="0 0 -0.000319898" rotation="-180 -0 0" clipDistance="120" nodeId="206" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Vystrazna7" lockedgroup="true" translation="-0.75 0 -7.922" nodeId="207">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="208">
+              <Shape shapeId="5" name="colMain" dynamic="true" collisionMask="223" nodeId="209" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="22" name="Vystrazna7" translation="0 0.000170231 0" clipDistance="120" nodeId="210" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="11" name="Vystrazna" translation="0 2.762 9.53674e-07" rotation="-180 -0 0" clipDistance="120" nodeId="211" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="12" name="SroubyVystrazna" translation="-2.32831e-10 -4.76837e-07 -0.000319898" rotation="3.64247e-06 -0 0" clipDistance="120" nodeId="212" materialIds="6"/>
+                    <Shape shapeId="25" name="Zatacka_prava" translation="0 0 -0.000319898" rotation="-180 -0 0" clipDistance="120" nodeId="213" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Vystrazna8" lockedgroup="true" translation="-1.5 0 -7.922" nodeId="214">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="215">
+              <Shape shapeId="5" name="colMain" dynamic="true" collisionMask="223" nodeId="216" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="10" name="Vystrazna8" translation="0 0.000170231 0" clipDistance="120" nodeId="217" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="11" name="Vystrazna" translation="0 2.762 9.53674e-07" rotation="-180 -0 0" clipDistance="120" nodeId="218" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="12" name="SroubyVystrazna" translation="-2.32831e-10 -4.76837e-07 -0.000319898" rotation="3.64247e-06 -0 0" clipDistance="120" nodeId="219" materialIds="6"/>
+                    <Shape shapeId="26" name="Zatacka_leva_dvojita" translation="0 0 -0.000319898" rotation="-180 -0 0" clipDistance="120" nodeId="220" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Vystrazna9" lockedgroup="true" translation="-2.25 0 -7.922" nodeId="221">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="222">
+              <Shape shapeId="5" name="colMain" dynamic="true" collisionMask="223" nodeId="223" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="22" name="Vystrazna9" translation="0 0.000170231 0" clipDistance="120" nodeId="224" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="27" name="Vystrazna" translation="0 2.762 9.53674e-07" rotation="-180 -0 0" clipDistance="120" nodeId="225" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="12" name="SroubyVystrazna" translation="-2.32831e-10 -4.76837e-07 -0.000319898" rotation="3.64247e-06 -0 0" clipDistance="120" nodeId="226" materialIds="6"/>
+                    <Shape shapeId="28" name="Zel_prejezd_zavory" translation="0 0 -0.000319898" rotation="-180 -0 0" clipDistance="120" nodeId="227" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="NavestniDeska" clipDistance="120" nodeId="228">
+          <TransformGroup name="80" lockedgroup="true" translation="0 0 1" nodeId="229">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="230">
+              <Shape shapeId="29" name="colMain" translation="-0.0034426 0 0" dynamic="true" collisionMask="223" nodeId="231" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="30" name="80m" translation="0.0034426 0 0" clipDistance="120" nodeId="232" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="31" name="Navestni_deska_80M_prava" translation="0 1.5 0" clipDistance="120" nodeId="233" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="32" name="Srouby80m" clipDistance="120" nodeId="234" materialIds="6"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="160" lockedgroup="true" translation="0 0 2" nodeId="235">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="236">
+              <Shape shapeId="29" name="colMain" translation="-0.0034426 0 0" dynamic="true" collisionMask="223" nodeId="237" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="33" name="160m" translation="0.0034426 0 0" clipDistance="120" nodeId="238" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="34" name="Navestni_deska_160M_prava" translation="0 1.5 0" clipDistance="120" nodeId="239" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="35" name="Srouby160m" clipDistance="120" nodeId="240" materialIds="6"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="240" lockedgroup="true" translation="0 0 3" nodeId="241">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="242">
+              <Shape shapeId="29" name="colMain" translation="-0.0034426 0 0" dynamic="true" collisionMask="223" nodeId="243" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="36" name="240m" translation="0.0034426 0 0" clipDistance="120" nodeId="244" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="37" name="Navestni_deska_240M_prava" translation="0 1.5 0" clipDistance="120" nodeId="245" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="38" name="Srouby240m" clipDistance="120" nodeId="246" materialIds="6"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="STOP" clipDistance="120" nodeId="247">
+          <TransformGroup name="stop" lockedgroup="true" translation="0.002 0 -5.474" nodeId="248">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="249">
+              <Shape shapeId="39" name="colMain" translation="-0.002 0 0" dynamic="true" collisionMask="223" nodeId="250" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="40" name="Stop" clipDistance="120" nodeId="251" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="41" name="Stop" translation="0 2.70658 0" clipDistance="120" nodeId="252" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="42" name="SroubyStop" clipDistance="120" nodeId="253" materialIds="6"/>
+                    <Shape shapeId="43" name="Stopka_plane" translation="0.0002836 0 0" clipDistance="120" nodeId="254" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="Smerova" clipDistance="120" nodeId="255">
+          <TransformGroup name="Smerova_Znacka_Mala" lockedgroup="true" translation="1.485 0 2.167" nodeId="256">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="257">
+              <Shape shapeId="44" name="colMain" translation="-0.00228 0 0" dynamic="true" collisionMask="223" nodeId="258" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="45" name="Smerova_Znacka_Mala" translation="0.00228 0 0" clipDistance="120" nodeId="259" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="46" name="Smerova_Znacka_Mala" translation="0.015 1.00029 0" clipDistance="120" nodeId="260" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="47" name="SroubySmerove_Mala" translation="-0.0153576 2.65837e-05 0.000882142" clipDistance="120" nodeId="261" materialIds="6"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Smerova_Znacka_Velka" lockedgroup="true" translation="1.485 0 1.28" nodeId="262">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="263">
+              <Shape shapeId="48" name="colMain" translation="-0.00199997 0 0" dynamic="true" collisionMask="223" nodeId="264" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="49" name="Smerova_Znacka_Velka" translation="0.00199997 0 0" clipDistance="120" nodeId="265" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="50" name="Smerova_Znacka_Velka" translation="0.015 1.00004 -0.000370026" clipDistance="120" nodeId="266" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="51" name="Srouby_Smerove_Velka" clipDistance="120" nodeId="267" materialIds="6"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="Hlavni" clipDistance="120" nodeId="268">
+          <TransformGroup name="Hlavni1" lockedgroup="true" translation="0 0 -4.124" nodeId="269">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="270">
+              <Shape shapeId="52" name="colMain" dynamic="true" collisionMask="223" nodeId="271" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="53" name="Hlavni" clipDistance="120" nodeId="272" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="54" name="Hlavni" translation="0 2.70658 0" clipDistance="120" nodeId="273" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="55" name="SroubyHlavni" clipDistance="120" nodeId="274" materialIds="6"/>
+                    <Shape shapeId="56" name="Tvar_krizovatky" translation="0.00028502 -0.974078 0" clipDistance="120" nodeId="275" materialIds="12" castsShadows="true" receiveShadows="true">
+                      <Shape shapeId="57" name="Krizovatka_1" clipDistance="120" nodeId="276" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                      <Shape shapeId="58" name="Srouby_Tvar_Krizovatky" clipDistance="120" nodeId="277" materialIds="6"/>
+                    </Shape>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Hlavni2" lockedgroup="true" translation="0.75 0 -4.124" nodeId="278">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="279">
+              <Shape shapeId="52" name="colMain" dynamic="true" collisionMask="223" nodeId="280" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="59" name="Hlavni" clipDistance="120" nodeId="281" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="60" name="Hlavni" translation="0 2.70658 0" clipDistance="120" nodeId="282" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="61" name="SroubyHlavni" clipDistance="120" nodeId="283" materialIds="6"/>
+                    <Shape shapeId="62" name="Tvar_krizovatky" translation="0.00028502 -0.974078 0" clipDistance="120" nodeId="284" materialIds="12" castsShadows="true" receiveShadows="true">
+                      <Shape shapeId="63" name="Krizovatka_2" clipDistance="120" nodeId="285" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                      <Shape shapeId="64" name="Srouby_Tvar_Krizovatky" clipDistance="120" nodeId="286" materialIds="6"/>
+                    </Shape>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Hlavni3" lockedgroup="true" translation="1.5 0 -4.124" nodeId="287">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="288">
+              <Shape shapeId="52" name="colMain" dynamic="true" collisionMask="223" nodeId="289" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="65" name="Hlavni" clipDistance="120" nodeId="290" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="66" name="Hlavni" translation="0 2.70658 0" clipDistance="120" nodeId="291" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="67" name="SroubyHlavni" clipDistance="120" nodeId="292" materialIds="6"/>
+                    <Shape shapeId="68" name="Tvar_krizovatky" translation="0.00028502 -0.974078 0" clipDistance="120" nodeId="293" materialIds="12" castsShadows="true" receiveShadows="true">
+                      <Shape shapeId="69" name="Krizovatka_3" clipDistance="120" nodeId="294" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                      <Shape shapeId="70" name="Srouby_Tvar_Krizovatky" clipDistance="120" nodeId="295" materialIds="6"/>
+                    </Shape>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Hlavni4" lockedgroup="true" translation="2.25 0 -4.124" nodeId="296">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="297">
+              <Shape shapeId="52" name="colMain" dynamic="true" collisionMask="223" nodeId="298" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="71" name="Hlavni" clipDistance="120" nodeId="299" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="72" name="Hlavni" translation="0 2.70658 0" clipDistance="120" nodeId="300" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="73" name="SroubyHlavni" clipDistance="120" nodeId="301" materialIds="6"/>
+                    <Shape shapeId="74" name="Tvar_krizovatky" translation="0.00028502 -0.974078 0" clipDistance="120" nodeId="302" materialIds="12" castsShadows="true" receiveShadows="true">
+                      <Shape shapeId="75" name="Krizovatka_4" clipDistance="120" nodeId="303" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                      <Shape shapeId="76" name="Srouby_Tvar_Krizovatky" translation="-0.00028491 0 0" clipDistance="120" nodeId="304" materialIds="6"/>
+                    </Shape>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="Obce" clipDistance="120" nodeId="305">
+          <TransformGroup name="Znacka_Obce_Zacatek" lockedgroup="true" translation="0.006 0 -2.797" nodeId="306">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="307">
+              <Shape shapeId="77" name="colMain" translation="-0.002 0 0" dynamic="true" collisionMask="223" nodeId="308" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="78" name="Znacka_Obce_Zacatek" translation="0.002 0 0" clipDistance="120" nodeId="309" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="79" name="Znacka_Obce_Zacatek" translation="0.0360583 2.8 0" clipDistance="120" nodeId="310" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="80" name="SroubyZacatekObce" translation="0.00235757 7.15256e-06 1.78814e-05" rotation="0 -0 -90" clipDistance="120" nodeId="311" materialIds="6"/>
+                    <Shape shapeId="81" name="NazevZacatek" translation="5.83008e-05 0 0" clipDistance="120" nodeId="312" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Znacka_Obce_Konec" lockedgroup="true" translation="0.006 0 -1.557" nodeId="313">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="314">
+              <Shape shapeId="77" name="colMain" translation="-0.002 0 0" dynamic="true" collisionMask="223" nodeId="315" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="40" name="Znacka_Obce_Konec" translation="0.002 0 0" clipDistance="120" nodeId="316" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="82" name="Znacka_Obce_Konec" translation="0.036 2.8 0" clipDistance="120" nodeId="317" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="80" name="SroubyKonecObce" translation="0.00235758 6.91414e-06 1.7643e-05" rotation="0 -0 -90" clipDistance="120" nodeId="318" materialIds="6"/>
+                    <Shape shapeId="83" name="NazevKonec" translation="0 0 -0.000319958" clipDistance="120" nodeId="319" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="KrizJednokolej" clipDistance="120" nodeId="320">
+          <TransformGroup name="Kriz_Jednokolej" lockedgroup="true" translation="0 0 4" nodeId="321">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="322">
+              <Shape shapeId="84" name="colMain" translation="-0.002 0 0" dynamic="true" collisionMask="223" nodeId="323" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="85" name="Kriz_Jednokolej" translation="0.002 0 0" clipDistance="120" nodeId="324" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="86" name="Kriz_Jednokolej" translation="0 2.74284 0" clipDistance="120" nodeId="325" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="87" name="Srouby_Kriz" clipDistance="120" nodeId="326" materialIds="6"/>
+                    <Shape shapeId="88" name="Stop" translation="0 -0.669126 0" clipDistance="120" nodeId="327" materialIds="12" castsShadows="true" receiveShadows="true">
+                      <Shape shapeId="42" name="SroubyStop" clipDistance="120" nodeId="328" materialIds="6"/>
+                      <Shape shapeId="43" name="Stopka_plane" translation="0.0002836 0 0" clipDistance="120" nodeId="329" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                    </Shape>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="Informacni" clipDistance="120" nodeId="330">
+          <TransformGroup name="Prechod_modra" lockedgroup="true" translation="1.5 0 -2.851" nodeId="331">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="332">
+              <Shape shapeId="89" name="colMain" translation="-0.002 0 0" dynamic="true" collisionMask="223" nodeId="333" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="90" name="Prechod_modra" translation="0.00199997 0 0" clipDistance="120" nodeId="334" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="91" name="Prechod_modra" translation="0 2.67976 0" clipDistance="120" nodeId="335" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="92" name="Prechod_Panacek" clipDistance="120" nodeId="336" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="93" name="SroubyPrechod" translation="-1.19209e-07 -2.38419e-07 1.81899e-12" rotation="0 -0 -90" clipDistance="120" nodeId="337" materialIds="6"/>
+                    <Shape shapeId="94" name="Prechod_bila" clipDistance="120" nodeId="338" materialIds="10" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Informativni_Parkoviste" lockedgroup="true" translation="2.25 0 -2.851" nodeId="339">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="340">
+              <Shape shapeId="95" name="colMain" translation="-0.00200009 0 0" dynamic="true" collisionMask="223" nodeId="341" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="40" name="Informativni_Parkoviste" translation="0.00200009 0 0" clipDistance="120" nodeId="342" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="96" name="Informativni_Parkoviste" translation="0 2.65836 0" clipDistance="120" nodeId="343" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="97" name="SroubyInformativni" clipDistance="120" nodeId="344" materialIds="6"/>
+                    <Shape shapeId="98" name="Parkoviste" clipDistance="120" nodeId="345" materialIds="11"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Informativni_Mesta" lockedgroup="true" translation="2.25 0 -1.862" nodeId="346">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="347">
+              <Shape shapeId="99" name="colMain" translation="-0.002 0 0" dynamic="true" collisionMask="223" nodeId="348" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="40" name="Informativni_Mesta" translation="0.00200009 0 0" clipDistance="120" nodeId="349" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="100" name="Informativni_Mesta" translation="0 2.69447 0" clipDistance="120" nodeId="350" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="101" name="KM" translation="0 0 -0.0331836" clipDistance="120" nodeId="351" materialIds="8" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="102" name="Mesto" clipDistance="120" nodeId="352" materialIds="8" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="103" name="SroubyInfoMesta" clipDistance="120" nodeId="353" materialIds="6"/>
+                  </Shape>
+                  <Shape shapeId="104" name="Informativni_Misto" translation="0 1.87082 0" clipDistance="120" nodeId="354" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="105" name="SroubyInfoMesta.001" translation="0 -1.19209e-07 -1.19209e-07" clipDistance="120" nodeId="355" materialIds="6"/>
+                    <Shape shapeId="106" name="VykupZZN" translation="-0.00029999 0 0" clipDistance="120" nodeId="356" materialIds="4" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="Zakazove" clipDistance="120" nodeId="357">
+          <TransformGroup name="Zakaz_Vjezdu" lockedgroup="true" nodeId="358">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="359">
+              <Shape shapeId="107" name="colMain" dynamic="true" collisionMask="223" nodeId="360" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="40" name="Zakaz_Vjezdu" clipDistance="120" nodeId="361" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="108" name="Zakaz_Vjezdu" translation="0 2.7 -1.76448e-05" clipDistance="120" nodeId="362" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="109" name="SroubyZakazVjezdu" clipDistance="120" nodeId="363" materialIds="6"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Zakaz_Zastaveni" lockedgroup="true" translation="0 0 5" nodeId="364">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="365">
+              <Shape shapeId="107" name="colMain" dynamic="true" collisionMask="223" nodeId="366" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="110" name="Zakaz_Zastaveni" clipDistance="120" nodeId="367" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="111" name="Zakaz_Zastaveni" translation="0 2.7 -1.7643e-05" clipDistance="120" nodeId="368" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="112" name="SroubyZakazZastaveni" translation="0 2.38419e-07 1.81899e-12" clipDistance="120" nodeId="369" materialIds="6"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Zakaz_Zastaveni" lockedgroup="true" translation="0.75 0 5" nodeId="370">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="371">
+              <Shape shapeId="107" name="colMain" dynamic="true" collisionMask="223" nodeId="372" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="40" name="Zakaz_Stani" clipDistance="120" nodeId="373" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="113" name="Zakaz_Stani" translation="0 2.7 -1.76448e-05" clipDistance="120" nodeId="374" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="114" name="SroubyZakazStani" translation="0 -4.76837e-07 1.81899e-12" clipDistance="120" nodeId="375" materialIds="6"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="30" lockedgroup="true" translation="0.75 0 0" nodeId="376">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="377">
+              <Shape shapeId="107" name="colMain" dynamic="true" collisionMask="223" nodeId="378" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="40" name="30" clipDistance="120" nodeId="379" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="115" name="Zakaz_Vjezdu" translation="0 2.7 -1.76448e-05" clipDistance="120" nodeId="380" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="109" name="SroubyZakazVjezdu" clipDistance="120" nodeId="381" materialIds="6"/>
+                    <Shape shapeId="116" name="30km" translation="0.00251971 0 1.76448e-05" clipDistance="120" nodeId="382" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="50" lockedgroup="true" translation="1.5 0 0" nodeId="383">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="384">
+              <Shape shapeId="107" name="colMain" dynamic="true" collisionMask="223" nodeId="385" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="117" name="50" clipDistance="120" nodeId="386" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="115" name="Zakaz_Vjezdu" translation="0 2.7 -1.76448e-05" clipDistance="120" nodeId="387" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="109" name="SroubyZakazVjezdu" clipDistance="120" nodeId="388" materialIds="6"/>
+                    <Shape shapeId="118" name="50km" translation="0.00251971 0 0" clipDistance="120" nodeId="389" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Zakaz_nakladni" lockedgroup="true" translation="2.25 0 0" nodeId="390">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="391">
+              <Shape shapeId="107" name="colMain" dynamic="true" collisionMask="223" nodeId="392" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="40" name="Zakaz_nakladni" clipDistance="120" nodeId="393" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="115" name="Zakaz_Vjezdu" translation="0 2.7 -1.76448e-05" clipDistance="120" nodeId="394" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="109" name="SroubyZakazVjezdu" clipDistance="120" nodeId="395" materialIds="6"/>
+                    <Shape shapeId="119" name="Zakaz_Nakladaku" translation="0.00251971 0 0" clipDistance="120" nodeId="396" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Zakaz_predjizdeni" lockedgroup="true" translation="3 0 0" nodeId="397">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="398">
+              <Shape shapeId="107" name="colMain" dynamic="true" collisionMask="223" nodeId="399" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="40" name="Zakaz_predjizdeni" clipDistance="120" nodeId="400" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="115" name="Zakaz_Vjezdu" translation="0 2.7 -1.76448e-05" clipDistance="120" nodeId="401" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="109" name="SroubyZakazVjezdu" clipDistance="120" nodeId="402" materialIds="6"/>
+                    <Shape shapeId="120" name="Zakaz_Predjizdeni" translation="0.00251971 0 0" clipDistance="120" nodeId="403" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="121" name="Zakaz_Predjizdeni_cervene" translation="0.00251971 0 -2.79997e-08" clipDistance="120" nodeId="404" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Zakaz_Traktor" lockedgroup="true" translation="3.75 0 0" nodeId="405">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="406">
+              <Shape shapeId="107" name="colMain" dynamic="true" collisionMask="223" nodeId="407" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="40" name="Zakaz_Traktor" clipDistance="120" nodeId="408" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="115" name="Zakaz_Vjezdu" translation="0 2.7 -1.76448e-05" clipDistance="120" nodeId="409" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="109" name="SroubyZakazVjezdu" clipDistance="120" nodeId="410" materialIds="6"/>
+                    <Shape shapeId="122" name="Zakaz_Traktoru" translation="0.00251971 0 0" clipDistance="120" nodeId="411" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="Prikazove" clipDistance="120" nodeId="412">
+          <TransformGroup name="Prikazova_vlevo" lockedgroup="true" translation="0 0 6" nodeId="413">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="414">
+              <Shape shapeId="107" name="colMain" dynamic="true" collisionMask="223" nodeId="415" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="78" name="Prikazova_Leva" clipDistance="120" nodeId="416" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="123" name="Prikazova_zna" translation="0 2.7 -1.76448e-05" clipDistance="120" nodeId="417" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="109" name="SroubyPrikazova" translation="0 -4.76837e-07 1.81899e-12" clipDistance="120" nodeId="418" materialIds="6"/>
+                    <Shape shapeId="124" name="Sipka_Leva" clipDistance="120" nodeId="419" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Prikazova_vpravo" lockedgroup="true" translation="0.75 0 6" nodeId="420">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="421">
+              <Shape shapeId="107" name="colMain" dynamic="true" collisionMask="223" nodeId="422" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="40" name="Prikazova_Prava" clipDistance="120" nodeId="423" materialIds="12" receiveShadows="true">
+                  <Shape shapeId="123" name="Prikazova_zna" translation="0 2.7 -1.76448e-05" clipDistance="120" nodeId="424" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="109" name="SroubyPrikazova" translation="0 -4.76837e-07 1.81899e-12" clipDistance="120" nodeId="425" materialIds="6"/>
+                    <Shape shapeId="125" name="Sipka_Prava" clipDistance="120" nodeId="426" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Prikazova_rovne" lockedgroup="true" translation="1.5 0 6" nodeId="427">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="428">
+              <Shape shapeId="107" name="colMain" dynamic="true" collisionMask="223" nodeId="429" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="40" name="Prikazova_rovne" clipDistance="120" nodeId="430" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="123" name="Prikazova_zna" translation="0 2.7 -1.76448e-05" clipDistance="120" nodeId="431" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="109" name="SroubyPrikazova" translation="0 -4.76837e-07 1.81899e-12" clipDistance="120" nodeId="432" materialIds="6"/>
+                    <Shape shapeId="126" name="Sipka_Rovna" clipDistance="120" nodeId="433" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Prikazova_leva" lockedgroup="true" translation="2.25 0 6" nodeId="434">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="435">
+              <Shape shapeId="107" name="colMain" dynamic="true" collisionMask="223" nodeId="436" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="40" name="Prikazova_vlevo" clipDistance="120" nodeId="437" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="123" name="Prikazova_zna" translation="0 2.7 -1.76448e-05" clipDistance="120" nodeId="438" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="109" name="SroubyPrikazova" translation="0 -4.76837e-07 1.81899e-12" clipDistance="120" nodeId="439" materialIds="6"/>
+                    <Shape shapeId="127" name="Sipka_Rovna" rotation="90 -0 0" clipDistance="120" nodeId="440" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Prikazova_prava" lockedgroup="true" translation="3 0 6" nodeId="441">
+            <TransformGroup name="joint" joint="true" breakableJoint="true" jointBreakForce="25" jointBreakTorque="25" rotMinX="0" rotMaxX="0" transMinX="0" transMaxX="0" rotMinY="0" rotMaxY="0" transMinY="0" transMaxY="0" rotMinZ="0" rotMaxZ="0" transMinZ="0" transMaxZ="0" clipDistance="88" nodeId="442">
+              <Shape shapeId="107" name="colMain" dynamic="true" collisionMask="223" nodeId="443" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="40" name="Prikazova_vpravo" clipDistance="120" nodeId="444" materialIds="12" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="123" name="Prikazova_zna" translation="0 2.7 -1.76448e-05" clipDistance="120" nodeId="445" materialIds="12" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="109" name="SroubyPrikazova" translation="0 -4.76837e-07 1.81899e-12" clipDistance="120" nodeId="446" materialIds="6"/>
+                    <Shape shapeId="128" name="Sipka_Rovna" rotation="-90 -0 0" clipDistance="120" nodeId="447" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </Shape>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+  </Scene>
+
+</i3D>

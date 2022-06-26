@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.2"/>
+  </Asset>
+
+  <Files>
+  </Files>
+
+
+  <Materials>
+    <Material name="UnnamedMaterial" materialId="9975" diffuseColor="1 1 1 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="cestatest.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="GroupName" translation="-483.978 155.01 298.971" nodeId="76617">
+        <Shape shapeId="1" name="plane" translation="-29.3757 7.62878 -133.202" rotation="0 14.0762 0" nodeId="76602" materialIds="9975" distanceBlending="false"/>
+        <Shape shapeId="1" name="plane" translation="-25.3807 7.01497 -112.545" rotation="0 14.0762 0" nodeId="76603" materialIds="9975" distanceBlending="false"/>
+        <Shape shapeId="1" name="plane" translation="-21.2131 5.07907 -91.6752" rotation="0 14.0762 0" nodeId="76604" materialIds="9975" distanceBlending="false"/>
+        <Shape shapeId="1" name="plane" translation="-18.9815 4.28311 -79.896" rotation="0 14.0762 0" nodeId="76605" materialIds="9975" distanceBlending="false"/>
+        <Shape shapeId="1" name="plane" translation="-15.0777 4.65726 -58.9242" rotation="0 14.0762 0" nodeId="76606" materialIds="9975" distanceBlending="false"/>
+        <Shape shapeId="1" name="plane" translation="-10.2258 5.04237 -36.828" rotation="0 14.0762 0" nodeId="76607" materialIds="9975" distanceBlending="false"/>
+        <Shape shapeId="1" name="plane" translation="-6.32455 3.73944 -19.9192" rotation="0 14.0762 0" nodeId="76608" materialIds="9975" distanceBlending="false"/>
+        <Shape shapeId="1" name="plane" translation="0.330536 2.12695 -4.71896" rotation="0 14.0762 0" nodeId="76609" materialIds="9975" distanceBlending="false"/>
+        <Shape shapeId="1" name="plane" translation="7.64203 1.86751 14.582" rotation="0 14.0762 0" nodeId="76610" materialIds="9975" distanceBlending="false"/>
+        <Shape shapeId="1" name="plane" translation="13.7983 0.0522614 46.1753" rotation="0 14.0762 0" nodeId="76611" materialIds="9975" distanceBlending="false"/>
+        <Shape shapeId="1" name="plane" translation="6.40781 -8.09912 86.8701" rotation="0 14.0762 0" nodeId="76612" materialIds="9975" distanceBlending="false"/>
+        <Shape shapeId="1" name="plane" translation="8.13394 -9.6402 113.922" rotation="0 39.9233 0" nodeId="76614" materialIds="9975" distanceBlending="false"/>
+        <Shape shapeId="1" name="plane" translation="32.0794 -11.954 128.99" rotation="0 73.7513 0" nodeId="76615" materialIds="9975" distanceBlending="false"/>
+        <Shape shapeId="1" name="plane" translation="58.1869 -11.7986 147.17" rotation="0 55.6158 0" nodeId="76616" materialIds="9975" distanceBlending="false"/>
+      </TransformGroup>
+  </Scene>
+
+</i3D>

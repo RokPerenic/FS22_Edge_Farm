@@ -1,0 +1,48 @@
+i3dio.exporter:export_blend_to_i3d:INFO: Blender version is: 2.92.0
+i3dio.exporter:export_blend_to_i3d:INFO: I3D Exporter version is: 4.0.0
+i3dio.exporter:export_blend_to_i3d:INFO: Exported using 'element_tree'
+i3dio.exporter:export_blend_to_i3d:INFO: Exporting to C:\Users\tinap\Documents\My Games\FarmingSimulator2022\mods\FS22_Edge_Farm\maps\map\textures\testupam.i3d
+i3dio.exporter:_export_selected_objects:INFO: 'Selected Objects' export is selected'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [test5] is of type 'MESH'
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [test5] Filling out basic attributes, {name='test5', nodeId='1'}
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [test5] is exported with modifiers applied
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [test5] applying unit scaling
+i3dio.node_classes.node.IndexedTriangleSet:_create_xml_element:DEBUG: [test5] Filling out basic attributes, {name='test5', nodeId='1'}
+i3dio.node_classes.node.IndexedTriangleSet:populate_from_evaluated_mesh:INFO: [test5] Has material 'roadmat'
+i3dio.i3d.I3D:add_material:DEBUG: [testupam] New Material
+i3dio.node_classes.node.Material:_create_xml_element:DEBUG: [roadmat] Filling out basic attributes, {name='roadmat', nodeId='1'}
+i3dio.utility:as_fs_relative_path:DEBUG: Original filepath: C:\Users\tinap\Documents\My Games\FarmingSimulator2022\mods\FS22_Edge_Farm\maps\map\textures\roadnew.dds
+i3dio.utility:as_fs_relative_path:DEBUG: Cleaned filepath: C:\Users\tinap\Documents\My Games\FarmingSimulator2022\mods\FS22_Edge_Farm\maps\map\textures\roadnew.dds
+i3dio.utility:as_fs_relative_path:DEBUG: FS data path: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data
+i3dio.node_classes.node.Material:_diffuse_from_nodes:DEBUG: [roadmat] Has diffuse texture 'C:\Users\tinap\Documents\My Games\FarmingSimulator2022\mods\FS22_Edge_Farm\maps\map\textures\roadnew.dds'
+i3dio.i3d.I3D:add_file:DEBUG: [testupam] New File
+i3dio.utility:as_fs_relative_path:DEBUG: Original filepath: C:\Users\tinap\Documents\My Games\FarmingSimulator2022\mods\FS22_Edge_Farm\maps\map\textures\roadnew.dds
+i3dio.utility:as_fs_relative_path:DEBUG: Cleaned filepath: C:\Users\tinap\Documents\My Games\FarmingSimulator2022\mods\FS22_Edge_Farm\maps\map\textures\roadnew.dds
+i3dio.utility:as_fs_relative_path:DEBUG: FS data path: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data
+i3dio.node_classes.file.Image:_copy_file:INFO: [roadnew.dds] is not an FS builtin and will be copied
+i3dio.node_classes.file.Image:_copy_file:DEBUG: [roadnew.dds] will be copied using the 'MODHUB' hierarchy structure
+i3dio.node_classes.file.Image:_copy_file:INFO: [roadnew.dds] copied to 'C:\Users\tinap\Documents\My Games\FarmingSimulator2022\mods\FS22_Edge_Farm\maps\map\textures\textures\roadnew.dds'
+i3dio.node_classes.file.Image:_resolve_filepath:INFO: [roadnew.dds] Resolved filepath: textures\roadnew.dds
+i3dio.node_classes.file.Image:_create_xml_element:DEBUG: [roadnew.dds] Filling out basic attributes, {name='textures/roadnew.dds', nodeId='1'}
+i3dio.node_classes.node.Material:_normal_from_nodes:DEBUG: [roadmat] Has no Normalmap
+i3dio.node_classes.node.Material:_emissive_from_nodes:DEBUG: [roadmat] Has no Emissivemap
+i3dio.node_classes.node.Material:_resolve_with_nodes:DEBUG: [roadmat] Has no Glossmap
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [test5] Subset with index [0] based on material 'roadmat'
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [test5] Processing subset: materialId="1" numTriangles="965" firstIndex="0" firstVertex="0" numIndices="0" numVertices="0"
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [test5] Has subset 'roadmat' with '965' triangles and materialId="1" numTriangles="965" firstIndex="0" firstVertex="0" numIndices="2895" numVertices="812"
+i3dio.node_classes.node.IndexedTriangleSet:populate_xml_element:DEBUG: [test5] Has '1' subsets, '965' triangles and '812' vertices
+i3dio.node_classes.node.ShapeNode:populate_xml_element:DEBUG: [test5] has shape ID '1'
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeObjectAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeShapeAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [test5] transforming to new transform-basis with <Matrix 4x4 (1.0000,  0.0000,  0.0000, 0.0000)
+            (0.0000, -0.0000, -1.0000, 0.0000)
+            (0.0000,  1.0000, -0.0000, 0.0000)
+            (0.0000,  0.0000,  0.0000, 1.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [test5] translation is <Vector (0.0000, 0.0000, 0.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [test5] translation is default
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [test5] has rotation(degrees): [90 -0 0]
+i3dio.node_classes.node.ShapeNode:__init__:DEBUG: [test5] Initialized as a 'ShapeNode'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [test5] processing objects children
+i3dio.exporter:_add_object_to_i3d:DEBUG: [test5] no more children to process in object

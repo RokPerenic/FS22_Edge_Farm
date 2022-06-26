@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.2.2"/>
+    </Asset>
+    <Files>
+        <File fileId="2" filename="NormalMaprealwall.dds"/>
+        <File fileId="1" filename="wallreal.dds"/>
+    </Files>
+    <Materials>
+        <Material name="Material.001" materialId="12">
+            <Texture fileId="1"/>
+            <Normalmap fileId="2"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="walll21221.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="Cube.001" translation="-520.878 110.036 378.27" rotation="-179.592 85.7556 -179.898" scale="0.8 0.8 0.8" static="true" clipDistance="100" nodeId="33181" materialIds="12" castsShadows="true" receiveShadows="true"/>
+    </Scene>
+</i3D>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeables>
+    <!-- Animals, farm -->
+	<placeable filename="data/placeables/rudolfHormann/horseBarnBig/horseBarnBig.xml"        position="-323.70901489 164.257 2.93176913"  rotation="180 -46.62550354 179.99998474"   defaultFarmProperty="true" farmId="1"/>
+	<placeable filename="$mapdir$/maps/map/placeables/sleeptrigger/sleeptrigger.xml" position="-227.16200256 155.42399597 -142.05200195"  rotation="0 -33.86 0" defaultFarmProperty="true" age="0.000000" price="1000.000000" farmId="1" />
+	<placeable  filename="$mapdir$/maps/map/placeables/pigBarnSmall/pigBarnSmall.xml" position="-575.8239 161.481 633.184" rotation="180 7.823 180" age="0.000000" price="5000.000000" farmId="1" />
+	<placeable  filename="$mapdir$/maps/map/placeables/sheepBarnSmall/sheepBarnSmall.xml" position="393.23199463 156.73599243 -251.88600159" rotation="180 0 180" age="0.000000" price="5000.000000" farmId="1" />
+	<placeable  filename="$mapdir$/maps/map/placeables/chickenBarnSmall/chickenBarnSmall.xml" position="354.36099243 157.18234253 -218.85203552" rotation="180 3.673 -180" age="0.000000" price="5000.000000" farmId="1" />
+	<placeable  filename="$mapdir$/maps/map/placeables/bunkerSilo/bunker.xml" position="-328.25900269 163.184 -240.52056885" rotation="-180 40.202 -180" age="0.000000" price="5000.000000" farmId="1" />
+	<placeable  filename="$mapdir$/maps/map/placeables/bunkerSilo/bunker.xml" position="-319.29400635 163.184 -232.94406128" rotation="-180 40.202 -180" age="0.000000" price="5000.000000" farmId="1" />
+	<placeable  filename="$mapdir$/maps/map/placeables/bunkerSilo/bunker.xml" position="-206.17199707 163.68200684 -246.70700073" rotation="0 -36.382 0" age="0.000000" price="5000.000000" farmId="1" />
+	<placeable  filename="$mapdir$/maps/map/placeables/cowBarnBig/cowBarnBig.xml" position="-270.11801147 164.48500061 -298.94198608" rotation="180 -47.4 -180" age="0.000000" price="5000.000000" farmId="1" />
+
+	
+	<!-- Sell points -->
+	<placeable mapBoundId="sellingStationBales"  filename="$mapdir$/maps/map/placeables/sellingStationBales/sellingStationBales.xml" position="-982.07501221 176.76467896 -230.4881897" rotation="0 19.878 0" age="0.000000" price="875000.000000" farmId="1" />
+	<placeable mapBoundId="sellingStation" filename="$mapdir$/maps/map/placeables/sellingStationGeneric/sellingStationGenericnolid.xml" position="-983.1920166 176.56158447 -282.51699829" rotation="0 0 0" age="0.000000" price="875000.000000" farmId="1" />
+	<placeable mapBoundId="sellingStation" filename="$mapdir$/maps/map/placeables/sellingStationGeneric/sellingStationGenericnolid2.xml" position="-754.04901123 177.81207275 -584.23144531" rotation="0 -64.087 0" age="0.000000" price="875000.000000" farmId="1" />
+	<placeable mapBoundId="sellingStation" filename="$mapdir$/maps/map/placeables/sellingStationGeneric/sellingStationGenericnolid3.xml" position="-767.52001953 177.84661865 -596.83837891" rotation="0 -64.284 0" age="0.000000" price="875000.000000" farmId="1" />
+	<placeable mapBoundId="sellingStation" filename="$mapdir$/maps/map/placeables/sellingStationGeneric/sellingStationGenericnolid3.xml" position="-767.52001953 177.84661865 -596.83837891" rotation="0 -64.284 0" age="0.000000" price="875000.000000" farmId="1" />
+    <placeable mapBoundId="bga" filename="data/placeables/planET/bga99kw/bga99kw.xml" position="-799.04699707 177.83407593 -560.37896729" rotation="180 47 180" />
+    <placeable mapBoundId="bgaBunkerSilo" filename="data/placeables/planET/bgaBunkerSilo/bgaBunkerSilo.xml" position="-830.36901855 177.82879639 -510.2019043" rotation="-180 47 -180" />
+    <placeable filename="$mapdir$/maps/map/placeables/gasStation/gasStation01.xml" position="-673.17999268 177.8349762 -608.74188232" rotation="0 43.051 0" price="1.000000" mapBoundId="gasStation01"/>
+</placeables>

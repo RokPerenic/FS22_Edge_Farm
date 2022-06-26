@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="barbedFenceKit.blend" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="barbedFence_diffuse.dds"/>
+    <File fileId="2" filename="barbedFence_normal.dds"/>
+    <File fileId="3" filename="barbedFence_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="wood" materialId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="barbedFenceKitNew.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="fenceKit" clipDistance="300" nodeId="208">
+      <TransformGroup name="post_1" translation="-3.5 0 0" clipDistance="300" nodeId="43">
+        <TransformGroup name="wires" translation="0 0.21 0.094976" clipDistance="170" nodeId="44">
+          <Shape shapeId="1" name="woodWire1" static="true" clipDistance="160" nodeId="45" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="woodWire2" static="true" clipDistance="160" nodeId="46" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="woodWire3" static="true" clipDistance="160" nodeId="47" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="woodWire4" static="true" clipDistance="160" nodeId="48" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="woodWireBroken1" static="true" clipDistance="160" nodeId="49" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="woodWireBroken2" static="true" clipDistance="160" nodeId="50" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <Shape shapeId="7" name="woodPost1" static="true" clipDistance="260" nodeId="51" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="8" name="woodPost1Marker" clipDistance="20" nodeId="52" materialIds="4"/>
+      </TransformGroup>
+      <TransformGroup name="post_2" translation="-2 0 0" clipDistance="300" nodeId="53">
+        <TransformGroup name="wires" translation="0 0.21 0.094976" clipDistance="170" nodeId="54">
+          <Shape shapeId="1" name="woodWire1" static="true" clipDistance="160" nodeId="55" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="woodWire2" static="true" clipDistance="160" nodeId="56" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="woodWire3" static="true" clipDistance="160" nodeId="57" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="woodWire4" static="true" clipDistance="160" nodeId="58" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="woodWireBroken1" static="true" clipDistance="160" nodeId="59" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="woodWireBroken2" static="true" clipDistance="160" nodeId="60" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <Shape shapeId="9" name="woodPost2Marker" clipDistance="20" nodeId="61" materialIds="4"/>
+        <Shape shapeId="10" name="woodPost2" static="true" clipDistance="270" nodeId="62" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="post_3" translation="-1 0 0" clipDistance="300" nodeId="63">
+        <TransformGroup name="wires" translation="0 0.21 0.094976" clipDistance="170" nodeId="64">
+          <Shape shapeId="1" name="woodWire1" static="true" clipDistance="160" nodeId="65" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="woodWire2" static="true" clipDistance="160" nodeId="66" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="woodWire3" static="true" clipDistance="160" nodeId="67" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="woodWire4" static="true" clipDistance="160" nodeId="68" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="woodWireBroken1" static="true" clipDistance="160" nodeId="69" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="woodWireBroken2" static="true" clipDistance="160" nodeId="70" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <Shape shapeId="11" name="woodPost3" static="true" clipDistance="270" nodeId="71" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="12" name="woodPost3Marker" clipDistance="20" nodeId="72" materialIds="4"/>
+      </TransformGroup>
+      <TransformGroup name="post_4" clipDistance="300" nodeId="73">
+        <TransformGroup name="wires" translation="0 0.21 0.061688" clipDistance="170" nodeId="74">
+          <Shape shapeId="1" name="woodWire1" static="true" clipDistance="160" nodeId="75" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="woodWire2" static="true" clipDistance="160" nodeId="76" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="woodWire3" static="true" clipDistance="160" nodeId="77" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="woodWire4" static="true" clipDistance="160" nodeId="78" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="woodWireBroken1" static="true" clipDistance="160" nodeId="79" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="woodWireBroken2" static="true" clipDistance="160" nodeId="80" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <Shape shapeId="13" name="woodPost4" static="true" clipDistance="270" nodeId="81" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="14" name="woodPost4Marker" clipDistance="20" nodeId="82" materialIds="4"/>
+      </TransformGroup>
+      <TransformGroup name="post_5" translation="1 0 0" clipDistance="300" nodeId="83">
+        <TransformGroup name="wires" translation="0 0.21 0.094976" clipDistance="170" nodeId="84">
+          <Shape shapeId="1" name="woodWire1" static="true" clipDistance="160" nodeId="85" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="woodWire2" static="true" clipDistance="160" nodeId="86" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="woodWire3" static="true" clipDistance="160" nodeId="87" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="woodWire4" static="true" clipDistance="160" nodeId="88" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="woodWireBroken1" static="true" clipDistance="160" nodeId="89" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="woodWireBroken2" static="true" clipDistance="160" nodeId="90" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <Shape shapeId="15" name="woodPost5" static="true" clipDistance="270" nodeId="91" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="16" name="woodPost5Marker" clipDistance="20" nodeId="92" materialIds="4"/>
+      </TransformGroup>
+      <TransformGroup name="woodFencePre_made" clipDistance="300" nodeId="93">
+        <TransformGroup name="woodFenceMadeUp" translation="-7 0 0" clipDistance="300" nodeId="94">
+          <TransformGroup name="wires" translation="0 0.21 16.844" clipDistance="170" nodeId="95">
+            <Shape shapeId="1" name="woodWire1" static="true" clipDistance="160" nodeId="96" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="2" name="woodWire2" static="true" clipDistance="160" nodeId="97" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="3" name="woodWire3" static="true" clipDistance="160" nodeId="98" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="4" name="woodWire4" static="true" clipDistance="160" nodeId="99" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="5" name="woodWireBroken1" static="true" clipDistance="160" nodeId="100" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="6" name="woodWireBroken2" static="true" clipDistance="160" nodeId="101" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+          <Shape shapeId="17" name="woodFenceMade" static="true" clipDistance="270" nodeId="102" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="18" name="woodFenceMadeMarkers" clipDistance="20" nodeId="103" materialIds="4"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="woodFenceDamaged" clipDistance="300" nodeId="104">
+        <TransformGroup name="woodFenceDamaged" translation="-5 0 0" clipDistance="300" nodeId="105">
+          <TransformGroup name="wires" translation="0 0.21 25.2203" clipDistance="170" nodeId="106">
+            <Shape shapeId="1" name="woodWire1" static="true" clipDistance="160" nodeId="107" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="2" name="woodWire2" static="true" clipDistance="160" nodeId="108" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="3" name="woodWire3" static="true" clipDistance="160" nodeId="109" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="4" name="woodWire4" static="true" clipDistance="160" nodeId="110" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="5" name="woodWireBroken1" static="true" clipDistance="160" nodeId="111" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="6" name="woodWireBroken2" static="true" clipDistance="160" nodeId="112" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+          <Shape shapeId="19" name="woodFenceDamaged" static="true" clipDistance="270" nodeId="113" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="20" name="woodFenceDamagedMarkers" clipDistance="20" nodeId="114" materialIds="4"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="woodCorners" clipDistance="300" nodeId="115">
+        <TransformGroup name="woodFenceCorner" translation="-12.5 0 0" clipDistance="300" nodeId="116">
+          <Shape shapeId="21" name="woodCornerPost" static="true" clipDistance="270" nodeId="117" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="woodFenceLeft_10" clipDistance="300" nodeId="118">
+        <TransformGroup name="curveLeft_10" translation="-16.5 0 0" clipDistance="300" nodeId="119">
+          <TransformGroup name="wires" translation="3.286 0.21 37.5658" rotation="0 13.394 0" clipDistance="170" nodeId="120">
+            <Shape shapeId="1" name="woodWire1" static="true" clipDistance="160" nodeId="121" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="2" name="woodWire2" static="true" clipDistance="160" nodeId="122" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="3" name="woodWire3" static="true" clipDistance="160" nodeId="123" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="4" name="woodWire4" static="true" clipDistance="160" nodeId="124" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="5" name="woodWireBroken1" static="true" clipDistance="160" nodeId="125" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="6" name="woodWireBroken2" static="true" clipDistance="160" nodeId="126" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+          <Shape shapeId="22" name="woodFenceCurveL10" translation="0 0 2e-06" static="true" clipDistance="270" nodeId="127" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="23" name="woodFenceCurveL10Marker" translation="0 0 2e-06" clipDistance="20" nodeId="128" materialIds="4"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="woodFenceLeft_20" clipDistance="300" nodeId="129">
+        <TransformGroup name="curveLeft_20" translation="-16 0 0" clipDistance="300" nodeId="130">
+          <TransformGroup name="wires" translation="6.52326 0.21 36.9873" rotation="0 22.334 0" clipDistance="170" nodeId="131">
+            <Shape shapeId="1" name="woodWire1" static="true" clipDistance="160" nodeId="132" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="2" name="woodWire2" static="true" clipDistance="160" nodeId="133" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="3" name="woodWire3" static="true" clipDistance="160" nodeId="134" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="4" name="woodWire4" static="true" clipDistance="160" nodeId="135" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="5" name="woodWireBroken1" static="true" clipDistance="160" nodeId="136" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="6" name="woodWireBroken2" static="true" clipDistance="160" nodeId="137" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+          <Shape shapeId="24" name="woodFenceCurveL20" translation="0 0 2e-06" static="true" clipDistance="270" nodeId="138" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="25" name="woodFenceCurveL20Marker" translation="0 0 2e-06" clipDistance="20" nodeId="139" materialIds="4"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="woodFenceLeft_30" clipDistance="300" nodeId="140">
+        <TransformGroup name="curveLeft_30" translation="-15.5 0 0" clipDistance="300" nodeId="141">
+          <TransformGroup name="wires" translation="9.62463 0.21 36.0613" rotation="0 29.8791 0" clipDistance="170" nodeId="142">
+            <Shape shapeId="1" name="woodWire1" static="true" clipDistance="160" nodeId="143" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="2" name="woodWire2" static="true" clipDistance="160" nodeId="144" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="3" name="woodWire3" static="true" clipDistance="160" nodeId="145" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="4" name="woodWire4" static="true" clipDistance="160" nodeId="146" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="5" name="woodWireBroken1" static="true" clipDistance="160" nodeId="147" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="6" name="woodWireBroken2" static="true" clipDistance="160" nodeId="148" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+          <Shape shapeId="26" name="woodFenceCurveL30" translation="0 0 2e-06" static="true" clipDistance="270" nodeId="149" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="27" name="woodFenceCurveL30Marker" translation="0 0 2e-06" clipDistance="20" nodeId="150" materialIds="4"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="woodFenceLeft_45" clipDistance="300" nodeId="151">
+        <TransformGroup name="curveLeft_45" translation="-15 0 0" clipDistance="300" nodeId="152">
+          <TransformGroup name="wires" translation="14.033 0.21 34.011" rotation="0 45.9978 0" clipDistance="170" nodeId="153">
+            <Shape shapeId="1" name="woodWire1" static="true" clipDistance="160" nodeId="154" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="2" name="woodWire2" static="true" clipDistance="160" nodeId="155" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="3" name="woodWire3" static="true" clipDistance="160" nodeId="156" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="4" name="woodWire4" static="true" clipDistance="160" nodeId="157" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="5" name="woodWireBroken1" static="true" clipDistance="160" nodeId="158" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="6" name="woodWireBroken2" static="true" clipDistance="160" nodeId="159" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+          <Shape shapeId="28" name="woodFenceCurveL45" translation="0 0 2e-06" static="true" clipDistance="270" nodeId="160" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="29" name="woodFenceCurveL45Marker" translation="0 0 2e-06" clipDistance="20" nodeId="161" materialIds="4"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="woodFenceRight_10" clipDistance="300" nodeId="162">
+        <TransformGroup name="curveRight_10" translation="-17 0 0" clipDistance="300" nodeId="163">
+          <TransformGroup name="wires" translation="-3.26401 0.21 37.5672" rotation="0 -12.8552 0" clipDistance="170" nodeId="164">
+            <Shape shapeId="1" name="woodWire1" static="true" clipDistance="160" nodeId="165" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="2" name="woodWire2" static="true" clipDistance="160" nodeId="166" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="3" name="woodWire3" static="true" clipDistance="160" nodeId="167" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="4" name="woodWire4" static="true" clipDistance="160" nodeId="168" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="5" name="woodWireBroken1" static="true" clipDistance="160" nodeId="169" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="6" name="woodWireBroken2" static="true" clipDistance="160" nodeId="170" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+          <Shape shapeId="30" name="woodFenceCurveR10" translation="0 0 2e-06" static="true" clipDistance="270" nodeId="171" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="31" name="woodFenceCurveR10Marker" translation="0 0 2e-06" clipDistance="20" nodeId="172" materialIds="4"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="woodFenceRight_20" clipDistance="300" nodeId="173">
+        <TransformGroup name="curveRight_20" translation="-17.5 0 0" clipDistance="300" nodeId="174">
+          <TransformGroup name="wires" translation="-6.48115 0.21 37.0011" rotation="0 -21.8276 0" clipDistance="170" nodeId="175">
+            <Shape shapeId="1" name="woodWire1" static="true" clipDistance="160" nodeId="176" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="2" name="woodWire2" static="true" clipDistance="160" nodeId="177" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="3" name="woodWire3" static="true" clipDistance="160" nodeId="178" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="4" name="woodWire4" static="true" clipDistance="160" nodeId="179" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="5" name="woodWireBroken1" static="true" clipDistance="160" nodeId="180" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="6" name="woodWireBroken2" static="true" clipDistance="160" nodeId="181" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+          <Shape shapeId="32" name="woodFenceCurveR20" translation="0 0 2e-06" static="true" clipDistance="270" nodeId="182" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="33" name="woodFenceCurveR20Marker" translation="0 0 2e-06" clipDistance="20" nodeId="183" materialIds="4"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="woodFenceRight_30" clipDistance="300" nodeId="184">
+        <TransformGroup name="curveRight_30" translation="-18 0 0" clipDistance="300" nodeId="185">
+          <TransformGroup name="wires" translation="-9.623 0.21 36.0618" rotation="0 -33.8168 0" clipDistance="170" nodeId="186">
+            <Shape shapeId="1" name="woodWire1" static="true" clipDistance="160" nodeId="187" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="2" name="woodWire2" static="true" clipDistance="160" nodeId="188" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="3" name="woodWire3" static="true" clipDistance="160" nodeId="189" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="4" name="woodWire4" static="true" clipDistance="160" nodeId="190" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="5" name="woodWireBroken1" static="true" clipDistance="160" nodeId="191" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="6" name="woodWireBroken2" static="true" clipDistance="160" nodeId="192" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+          <Shape shapeId="34" name="woodFenceCurveR30" translation="0 0 2e-06" static="true" clipDistance="270" nodeId="193" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="35" name="woodFenceCurveR30Marker" translation="0 0 2e-06" clipDistance="20" nodeId="194" materialIds="4"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="woodFenceRight_45" clipDistance="300" nodeId="195">
+        <TransformGroup name="curveRight_45" translation="-18.5 0 0" clipDistance="300" nodeId="196">
+          <TransformGroup name="wires" translation="-14.0224 0.21 34.0293" rotation="0 -48.1994 0" clipDistance="170" nodeId="197">
+            <Shape shapeId="1" name="woodWire1" static="true" clipDistance="160" nodeId="198" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="2" name="woodWire2" static="true" clipDistance="160" nodeId="199" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="3" name="woodWire3" static="true" clipDistance="160" nodeId="200" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="4" name="woodWire4" static="true" clipDistance="160" nodeId="201" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="5" name="woodWireBroken1" static="true" clipDistance="160" nodeId="202" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="6" name="woodWireBroken2" static="true" clipDistance="160" nodeId="203" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+          <Shape shapeId="36" name="woodFenceCurveR45" translation="0 0 2e-06" static="true" clipDistance="270" nodeId="204" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="37" name="woodFenceCurveR45Marker" translation="0 0 2e-06" clipDistance="20" nodeId="205" materialIds="4"/>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

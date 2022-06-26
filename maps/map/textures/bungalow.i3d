@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.2.2"/>
+    </Asset>
+    <Files>
+        <File fileId="4" filename="buildingWindowsLit_diffuse.dds"/>
+        <File fileId="1" filename="house_diffuse.png"/>
+        <File fileId="2" filename="house_normal.dds"/>
+        <File fileId="3" filename="window_diffuse.dds"/>
+    </Files>
+    <Materials>
+        <Material name="house2RearExtensionWindows" materialId="50">
+            <Texture fileId="3"/>
+        </Material>
+        <Material name="litWindows" materialId="57">
+            <Texture fileId="4"/>
+            <Emissivemap fileId="4"/>
+        </Material>
+        <Material name="rooms" materialId="237">
+            <Texture fileId="1"/>
+            <Normalmap fileId="2"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="bungalow.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="Bungalow1" translation="-47.9413 -0.0272475 15.2009" rotation="-2.94387e-12 -65.4887 1.36607e-05" clipDistance="450" nodeId="31597">
+            <Shape shapeId="1" name="bungalow1" static="true" clipDistance="450" nodeId="31598" materialIds="237" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="2" name="bungalow1Windows" static="true" clipDistance="100" nodeId="31599" materialIds="50" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <Shape shapeId="3" name="bungalow1_2Dormas" static="true" clipDistance="450" nodeId="31600" materialIds="237" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="4" name="bungalow1_2DormasWindows" static="true" clipDistance="100" nodeId="31601" materialIds="50" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <TransformGroup name="bungalowDoors" clipDistance="250" nodeId="31602">
+                <Shape shapeId="5" name="house1DoorSetup3" static="true" clipDistance="250" nodeId="31603" materialIds="237" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="downstairsRooms" clipDistance="250" nodeId="31604">
+                <Shape shapeId="6" name="downStairsRooms2" static="true" clipDistance="250" nodeId="31605" materialIds="237" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="bungalowCurtains" clipDistance="120" nodeId="31606">
+                <Shape shapeId="7" name="bungalowCurtain2" static="true" clipDistance="120" nodeId="31607" materialIds="50" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="nightLightSelectionBungalow" clipDistance="400" nodeId="31608">
+                <TransformGroup name="nightLight1" clipDistance="400" nodeId="31609">
+                    <Shape shapeId="8" name="litWindow12" translation="-4.0441 2.00785 -2.16332" rotation="0 -90 0" scale="1.13827 1.43054 1" static="true" nodeId="31610" materialIds="57" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+                <TransformGroup name="nightLight2" clipDistance="400" nodeId="31611">
+                    <Shape shapeId="8" name="litWindow12" translation="-3.99456 2.01008 2.22331" rotation="0 -90 0" scale="1.1869 1.4819 1" static="true" nodeId="31612" materialIds="57" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+                <TransformGroup name="nightLight3" clipDistance="400" nodeId="31613">
+                    <Shape shapeId="9" name="litWindow1" translation="3.77941 1.99619 -4.76936" rotation="0 90 0" scale="1.05941 1.50205 1" static="true" nodeId="31614" materialIds="57" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="10" name="litWindow14" translation="3.11517 5.21259 3.73108" rotation="0 90 0" scale="0.693875 1.0886 1" static="true" nodeId="31615" materialIds="57" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+                <TransformGroup name="nightLight4" clipDistance="400" nodeId="31616">
+                    <Shape shapeId="11" name="litWindow16" translation="3.78492 2.00921 4.8283" rotation="0 90 0" scale="1.03645 1.51701 1" static="true" nodeId="31617" materialIds="57" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="12" name="litWindow9" translation="-3.38745 5.14822 -3.7302" rotation="0 -90 0" scale="0.649177 1.07435 1" static="true" nodeId="31618" materialIds="57" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+            </TransformGroup>
+        </TransformGroup>
+    </Scene>
+    <UserAttributes>
+        <UserAttribute nodeId="31609">
+            <Attribute name="onCreate" type="scriptCallback" value="Nightlight2.onCreate"/>
+        </UserAttribute>
+        <UserAttribute nodeId="31611">
+            <Attribute name="onCreate" type="scriptCallback" value="Nightlight2.onCreate"/>
+        </UserAttribute>
+        <UserAttribute nodeId="31613">
+            <Attribute name="onCreate" type="scriptCallback" value="Nightlight2.onCreate"/>
+        </UserAttribute>
+        <UserAttribute nodeId="31616">
+            <Attribute name="onCreate" type="scriptCallback" value="Nightlight2.onCreate"/>
+        </UserAttribute>
+    </UserAttributes>
+</i3D>

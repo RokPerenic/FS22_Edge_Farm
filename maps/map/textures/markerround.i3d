@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.2.2"/>
+    </Asset>
+    <Files>
+        <File fileId="1" filename="textures/reflector_tex1.dds"/>
+        <File fileId="2" filename="textures/reflector_tex1_normal.dds"/>
+    </Files>
+    <Materials>
+        <Material name="reflector" materialId="1404">
+            <Texture fileId="1"/>
+            <Normalmap fileId="2"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="markerround.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="marker_round" translation="63.2984 97.0593 342.072" rotation="-9.56183e-12 -83.3833 2.5206e-05" static="true" clipDistance="150" nodeId="33105" materialIds="1404" castsShadows="true" receiveShadows="true"/>
+    </Scene>
+</i3D>

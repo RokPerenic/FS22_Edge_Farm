@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.2.2"/>
+    </Asset>
+    <Files>
+        <File fileId="2" filename="Concrete_3.dds"/>
+        <File fileId="3" filename="mesh.dds"/>
+        <File fileId="1" filename="plotbeton.dds"/>
+    </Files>
+    <Materials>
+        <Material name="03 - Default" materialId="44">
+            <Texture fileId="2"/>
+        </Material>
+        <Material name="beton" materialId="290">
+            <Texture fileId="1"/>
+        </Material>
+        <Material name="mesh_mat" materialId="1239">
+            <Texture fileId="3"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="wall2.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="redwall" translation="107.547 97.0591 273.143" rotation="-180 -1.61342 -180" scale="2 1.1 1.9" static="true" clipDistance="100" nodeId="34087" materialIds="290" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="2" name="fencepost" translation="0.0499538 2.08 -0.0884322" rotation="-180 -88.5077 -180" scale="0.814121 0.814121 0.814121" static="true" nodeId="34088" materialIds="44" castsShadows="true" receiveShadows="true">
+                <TransformGroup name="3m down 0.2" clipDistance="50" nodeId="34089">
+                    <Shape shapeId="3" name="chainlink" translation="-0.0478722 0.63155 0.00121528" rotation="0 1.45 -1.85" scale="1.2 0.55 1" static="true" nodeId="34090" materialIds="1239" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+            </Shape>
+        </Shape>
+    </Scene>
+</i3D>

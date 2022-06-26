@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.1"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="liquidManure_diffuse.png"/>
+    <File fileId="1" filename="manureTank_diffuse.png"/>
+    <File fileId="2" filename="manureTank_normal.png"/>
+    <File fileId="3" filename="manureTank_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="liquidManure_mat" materialId="5" specularColor="0.184314 1 0.101961">
+      <Texture fileId="4"/>
+    </Material>
+    <Material name="liquidManureTank_mat" materialId="6">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="liquidManureTank.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="liquidManureTank" scale="0.5 0.5 0.5" nodeId="13">
+        <Shape shapeId="1" name="liquidManureTank" scale="2 2 2" static="true" clipDistance="400" nodeId="14" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="2" name="liquidManure" translation="0 4.84137 0" kinematic="true" clipDistance="400" nodeId="15" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="3" name="fillTrigger" translation="0 5 0" rotation="0 -45 0" scale="7 4 7" static="true" trigger="true" collisionMask="1075838976" clipDistance="300" nodeId="16" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <TransformGroup name="clearAreas" nodeId="17">
+          <TransformGroup name="clearArea1Start" translation="-15 0 -15" nodeId="18">
+            <TransformGroup name="clearArea1Width" translation="30 0 0" nodeId="19"/>
+            <TransformGroup name="clearArea1Height" translation="0 0 30" nodeId="20"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="levelAreas" nodeId="21">
+          <TransformGroup name="levelArea1Start" translation="-15 0 -15" nodeId="22">
+            <TransformGroup name="levelArea1Width" translation="30 0 0" nodeId="23"/>
+            <TransformGroup name="levelArea1Height" translation="0 0 30" nodeId="24"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="aiNode" translation="25 0 0" rotation="180 0 -180" nodeId="25"/>
+        <TransformGroup name="loadingMarker" translation="20 0 0" scale="2 2 2" nodeId="26"/>
+        <TransformGroup name="indoorAreas" nodeId="27">
+          <TransformGroup name="indoorArea1Start" translation="-15 0 -15" nodeId="28">
+            <TransformGroup name="indoorArea1Width" translation="30 0 0" nodeId="29"/>
+            <TransformGroup name="indoorArea1Height" translation="0 0 30" nodeId="30"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="testAreas" nodeId="31">
+          <TransformGroup name="testArea1Start" translation="-15 0 -15" nodeId="32">
+            <TransformGroup name="testArea1End" translation="30 10 30" nodeId="33"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="tipOcclusionUpdateAreas" nodeId="34">
+          <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-15 0 -15" nodeId="35">
+            <TransformGroup name="tipOcclusionUpdateArea1End" translation="30 0 30" nodeId="36"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+  </Scene>
+
+</i3D>

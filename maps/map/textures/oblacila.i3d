@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.2.2"/>
+    </Asset>
+    <Files>
+        <File fileId="1" filename="clotheslines_diffuse.png"/>
+    </Files>
+    <Materials>
+        <Material name="clotheslines_mat" materialId="425" specularColor="0.14902 1 0.14902">
+            <Texture fileId="1"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="oblacila.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="umbrella" translation="87.526 97.2889 378.753" rotation="180 23.6701 180" static="true" clipDistance="150" nodeId="25160" materialIds="425" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="2" name="umbrellaClothes" static="true" clipDistance="300" nodeId="25161" materialIds="425" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+    </Scene>
+</i3D>

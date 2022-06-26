@@ -1,0 +1,218 @@
+i3dio.exporter:export_blend_to_i3d:INFO: Blender version is: 2.92.0
+i3dio.exporter:export_blend_to_i3d:INFO: I3D Exporter version is: 4.0.0
+i3dio.exporter:export_blend_to_i3d:INFO: Exported using 'element_tree'
+i3dio.exporter:export_blend_to_i3d:INFO: Exporting to C:\Users\tinap\Documents\My Games\FarmingSimulator2022\mods\FS22_Edge_Farm\maps\map\textures\mainhousetest.i3d
+i3dio.exporter:_export_selected_objects:INFO: 'Selected Objects' export is selected'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [house] is of type 'MESH'
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [house] Filling out basic attributes, {name='house', nodeId='1'}
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cube.001] is exported with modifiers applied
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cube.001] applying unit scaling
+i3dio.node_classes.node.IndexedTriangleSet:_create_xml_element:DEBUG: [Cube.001] Filling out basic attributes, {name='Cube.001', nodeId='1'}
+i3dio.node_classes.node.IndexedTriangleSet:populate_from_evaluated_mesh:INFO: [Cube.001] Has material 'houseMain_mat'
+i3dio.i3d.I3D:add_material:DEBUG: [mainhousetest] New Material
+i3dio.node_classes.node.Material:_create_xml_element:DEBUG: [houseMain_mat] Filling out basic attributes, {name='houseMain_mat', nodeId='1'}
+i3dio.utility:as_fs_relative_path:DEBUG: Original filepath: //..\..\Documents\My Games\FarmingSimulator2022\mods\FS22_Edge_Farm\maps\map\textures\myhouse2_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: Cleaned filepath: C:\Users\tinap\Documents\My Games\FarmingSimulator2022\mods\FS22_Edge_Farm\maps\map\textures\myhouse2_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: FS data path: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data
+i3dio.node_classes.node.Material:_diffuse_from_nodes:DEBUG: [houseMain_mat] Has diffuse texture 'C:\Users\tinap\Documents\My Games\FarmingSimulator2022\mods\FS22_Edge_Farm\maps\map\textures\myhouse2_diffuse.dds'
+i3dio.i3d.I3D:add_file:DEBUG: [mainhousetest] New File
+i3dio.utility:as_fs_relative_path:DEBUG: Original filepath: //..\..\Documents\My Games\FarmingSimulator2022\mods\FS22_Edge_Farm\maps\map\textures\myhouse2_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: Cleaned filepath: C:\Users\tinap\Documents\My Games\FarmingSimulator2022\mods\FS22_Edge_Farm\maps\map\textures\myhouse2_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: FS data path: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data
+i3dio.node_classes.file.Image:_copy_file:INFO: [myhouse2_diffuse.dds] is not an FS builtin and will be copied
+i3dio.node_classes.file.Image:_copy_file:DEBUG: [myhouse2_diffuse.dds] will be copied using the 'MODHUB' hierarchy structure
+i3dio.node_classes.file.Image:_copy_file:INFO: [myhouse2_diffuse.dds] copied to 'C:\Users\tinap\Documents\My Games\FarmingSimulator2022\mods\FS22_Edge_Farm\maps\map\textures\textures\myhouse2_diffuse.dds'
+i3dio.node_classes.file.Image:_resolve_filepath:INFO: [myhouse2_diffuse.dds] Resolved filepath: textures\myhouse2_diffuse.dds
+i3dio.node_classes.file.Image:_create_xml_element:DEBUG: [myhouse2_diffuse.dds] Filling out basic attributes, {name='textures/myhouse2_diffuse.dds', nodeId='1'}
+i3dio.node_classes.node.Material:_normal_from_nodes:DEBUG: [houseMain_mat] Has no Normalmap
+i3dio.node_classes.node.Material:_emissive_from_nodes:DEBUG: [houseMain_mat] Has no Emissivemap
+i3dio.node_classes.node.Material:_resolve_with_nodes:DEBUG: [houseMain_mat] Has no Glossmap
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [Cube.001] Subset with index [0] based on material 'houseMain_mat'
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cube.001] Processing subset: materialId="1" numTriangles="1222" firstIndex="0" firstVertex="0" numIndices="0" numVertices="0"
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cube.001] Has subset 'houseMain_mat' with '1222' triangles and materialId="1" numTriangles="1222" firstIndex="0" firstVertex="0" numIndices="3666" numVertices="2244"
+i3dio.node_classes.node.IndexedTriangleSet:populate_xml_element:DEBUG: [Cube.001] Has '1' subsets, '1222' triangles and '2244' vertices
+i3dio.node_classes.node.ShapeNode:populate_xml_element:DEBUG: [house] has shape ID '1'
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeObjectAttributes'
+i3dio.xml_i3d:write_i3d_properties:DEBUG: Property 'clip_distance' with value '300.0'. Default is '1000000.0'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '1' properties
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeShapeAttributes'
+i3dio.xml_i3d:write_i3d_properties:DEBUG: Property 'casts_shadows' with value 'True'. Default is 'False'
+i3dio.xml_i3d:write_i3d_properties:DEBUG: Property 'receive_shadows' with value 'True'. Default is 'False'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '2' properties
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [house] transforming to new transform-basis with <Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)
+            (0.0000, 1.0000, 0.0000, 0.0000)
+            (0.0000, 0.0000, 1.0000, 0.0000)
+            (0.0000, 0.0000, 0.0000, 1.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [house] translation is <Vector (0.0000, 0.0000, 0.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [house] translation is default
+i3dio.node_classes.node.ShapeNode:__init__:DEBUG: [house] Initialized as a 'ShapeNode'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [house] processing objects children
+i3dio.exporter:_add_object_to_i3d:DEBUG: [curtains] is of type 'MESH'
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [curtains] Filling out basic attributes, {name='curtains', nodeId='2'}
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [curtains] has parent element with name [house]
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cube.002] is exported with modifiers applied
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cube.002] applying unit scaling
+i3dio.node_classes.node.IndexedTriangleSet:_create_xml_element:DEBUG: [Cube.002] Filling out basic attributes, {name='Cube.002', nodeId='2'}
+i3dio.node_classes.node.IndexedTriangleSet:populate_from_evaluated_mesh:INFO: [Cube.002] Has material 'mainHouseCurtains_mat'
+i3dio.i3d.I3D:add_material:DEBUG: [mainhousetest] New Material
+i3dio.node_classes.node.Material:_create_xml_element:DEBUG: [mainHouseCurtains_mat] Filling out basic attributes, {name='mainHouseCurtains_mat', nodeId='2'}
+i3dio.utility:as_fs_relative_path:DEBUG: Original filepath: //..\..\..\..\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data\maps\mapFR\textures\windowsCurtains01_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: Cleaned filepath: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data\maps\mapFR\textures\windowsCurtains01_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: FS data path: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data
+i3dio.utility:as_fs_relative_path:DEBUG: Fs relative path: $data\maps\mapFR\textures\windowsCurtains01_diffuse.dds
+i3dio.node_classes.node.Material:_diffuse_from_nodes:DEBUG: [mainHouseCurtains_mat] Has diffuse texture '$data\maps\mapFR\textures\windowsCurtains01_diffuse.dds'
+i3dio.i3d.I3D:add_file:DEBUG: [mainhousetest] New File
+i3dio.utility:as_fs_relative_path:DEBUG: Original filepath: //..\..\..\..\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data\maps\mapFR\textures\windowsCurtains01_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: Cleaned filepath: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data\maps\mapFR\textures\windowsCurtains01_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: FS data path: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data
+i3dio.utility:as_fs_relative_path:DEBUG: Fs relative path: $data\maps\mapFR\textures\windowsCurtains01_diffuse.dds
+i3dio.node_classes.file.Image:_resolve_filepath:INFO: [windowsCurtains01_diffuse.dds] Resolved filepath: $data\maps\mapFR\textures\windowsCurtains01_diffuse.dds
+i3dio.node_classes.file.Image:_create_xml_element:DEBUG: [windowsCurtains01_diffuse.dds] Filling out basic attributes, {name='$data/maps/mapFR/textures/windowsCurtains01_diffuse.dds', nodeId='2'}
+i3dio.node_classes.node.Material:_normal_from_nodes:DEBUG: [mainHouseCurtains_mat] Has no Normalmap
+i3dio.node_classes.node.Material:_emissive_from_nodes:DEBUG: [mainHouseCurtains_mat] Has no Emissivemap
+i3dio.node_classes.node.Material:_resolve_with_nodes:DEBUG: [mainHouseCurtains_mat] Has no Glossmap
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [Cube.002] Subset with index [0] based on material 'mainHouseCurtains_mat'
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cube.002] Processing subset: materialId="2" numTriangles="14" firstIndex="0" firstVertex="0" numIndices="0" numVertices="0"
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cube.002] Has subset 'mainHouseCurtains_mat' with '14' triangles and materialId="2" numTriangles="14" firstIndex="0" firstVertex="0" numIndices="42" numVertices="28"
+i3dio.node_classes.node.IndexedTriangleSet:populate_xml_element:DEBUG: [Cube.002] Has '1' subsets, '14' triangles and '28' vertices
+i3dio.node_classes.node.ShapeNode:populate_xml_element:DEBUG: [curtains] has shape ID '2'
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeObjectAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeShapeAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [curtains] transforming to new transform-basis with <Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)
+            (0.0000, 1.0000, 0.0000, 0.0000)
+            (0.0000, 0.0000, 1.0000, 0.0000)
+            (0.0000, 0.0000, 0.0000, 1.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [curtains] translation is <Vector (0.0000, 0.0000, 0.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [curtains] translation is default
+i3dio.node_classes.node.ShapeNode:__init__:DEBUG: [curtains] Initialized as a 'ShapeNode'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [curtains] processing objects children
+i3dio.exporter:_add_object_to_i3d:DEBUG: [curtains] no more children to process in object
+i3dio.exporter:_add_object_to_i3d:DEBUG: [door] is of type 'MESH'
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [door] Filling out basic attributes, {name='door', nodeId='3'}
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [door] has parent element with name [house]
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cube.026] is exported with modifiers applied
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cube.026] applying unit scaling
+i3dio.node_classes.node.IndexedTriangleSet:_create_xml_element:DEBUG: [Cube.026] Filling out basic attributes, {name='Cube.026', nodeId='3'}
+i3dio.node_classes.node.IndexedTriangleSet:populate_from_evaluated_mesh:INFO: [Cube.026] Has material 'houseMainDoor_mat'
+i3dio.i3d.I3D:add_material:DEBUG: [mainhousetest] New Material
+i3dio.node_classes.node.Material:_create_xml_element:DEBUG: [houseMainDoor_mat] Filling out basic attributes, {name='houseMainDoor_mat', nodeId='3'}
+i3dio.utility:as_fs_relative_path:DEBUG: Original filepath: //..\..\..\..\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data\maps\mapFR\textures\doorsSET_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: Cleaned filepath: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data\maps\mapFR\textures\doorsSET_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: FS data path: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data
+i3dio.utility:as_fs_relative_path:DEBUG: Fs relative path: $data\maps\mapFR\textures\doorsSET_diffuse.dds
+i3dio.node_classes.node.Material:_diffuse_from_nodes:DEBUG: [houseMainDoor_mat] Has diffuse texture '$data\maps\mapFR\textures\doorsSET_diffuse.dds'
+i3dio.i3d.I3D:add_file:DEBUG: [mainhousetest] New File
+i3dio.utility:as_fs_relative_path:DEBUG: Original filepath: //..\..\..\..\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data\maps\mapFR\textures\doorsSET_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: Cleaned filepath: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data\maps\mapFR\textures\doorsSET_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: FS data path: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data
+i3dio.utility:as_fs_relative_path:DEBUG: Fs relative path: $data\maps\mapFR\textures\doorsSET_diffuse.dds
+i3dio.node_classes.file.Image:_resolve_filepath:INFO: [doorsSET_diffuse.dds] Resolved filepath: $data\maps\mapFR\textures\doorsSET_diffuse.dds
+i3dio.node_classes.file.Image:_create_xml_element:DEBUG: [doorsSET_diffuse.dds] Filling out basic attributes, {name='$data/maps/mapFR/textures/doorsSET_diffuse.dds', nodeId='3'}
+i3dio.node_classes.node.Material:_normal_from_nodes:DEBUG: [houseMainDoor_mat] Has no Normalmap
+i3dio.node_classes.node.Material:_emissive_from_nodes:DEBUG: [houseMainDoor_mat] Has no Emissivemap
+i3dio.node_classes.node.Material:_resolve_with_nodes:DEBUG: [houseMainDoor_mat] Has no Glossmap
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [Cube.026] Subset with index [0] based on material 'houseMainDoor_mat'
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cube.026] Processing subset: materialId="3" numTriangles="2" firstIndex="0" firstVertex="0" numIndices="0" numVertices="0"
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cube.026] Has subset 'houseMainDoor_mat' with '2' triangles and materialId="3" numTriangles="2" firstIndex="0" firstVertex="0" numIndices="6" numVertices="4"
+i3dio.node_classes.node.IndexedTriangleSet:populate_xml_element:DEBUG: [Cube.026] Has '1' subsets, '2' triangles and '4' vertices
+i3dio.node_classes.node.ShapeNode:populate_xml_element:DEBUG: [door] has shape ID '3'
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeObjectAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeShapeAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [door] transforming to new transform-basis with <Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)
+            (0.0000, 1.0000, 0.0000, 0.0000)
+            (0.0000, 0.0000, 1.0000, 0.0000)
+            (0.0000, 0.0000, 0.0000, 1.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [door] translation is <Vector (0.0000, 0.0000, 0.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [door] translation is default
+i3dio.node_classes.node.ShapeNode:__init__:DEBUG: [door] Initialized as a 'ShapeNode'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [door] processing objects children
+i3dio.exporter:_add_object_to_i3d:DEBUG: [door] no more children to process in object
+i3dio.exporter:_add_object_to_i3d:DEBUG: [rooms] is of type 'MESH'
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [rooms] Filling out basic attributes, {name='rooms', nodeId='4'}
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [rooms] has parent element with name [house]
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cube.024] is exported with modifiers applied
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cube.024] applying unit scaling
+i3dio.node_classes.node.IndexedTriangleSet:_create_xml_element:DEBUG: [Cube.024] Filling out basic attributes, {name='Cube.024', nodeId='4'}
+i3dio.node_classes.node.IndexedTriangleSet:populate_from_evaluated_mesh:INFO: [Cube.024] Has material 'mainHouseRooms_mat'
+i3dio.i3d.I3D:add_material:DEBUG: [mainhousetest] New Material
+i3dio.node_classes.node.Material:_create_xml_element:DEBUG: [mainHouseRooms_mat] Filling out basic attributes, {name='mainHouseRooms_mat', nodeId='4'}
+i3dio.utility:as_fs_relative_path:DEBUG: Original filepath: //..\..\..\..\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data\maps\mapFR\textures\windowsRoomInteriorsDay_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: Cleaned filepath: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data\maps\mapFR\textures\windowsRoomInteriorsDay_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: FS data path: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data
+i3dio.utility:as_fs_relative_path:DEBUG: Fs relative path: $data\maps\mapFR\textures\windowsRoomInteriorsDay_diffuse.dds
+i3dio.node_classes.node.Material:_diffuse_from_nodes:DEBUG: [mainHouseRooms_mat] Has diffuse texture '$data\maps\mapFR\textures\windowsRoomInteriorsDay_diffuse.dds'
+i3dio.i3d.I3D:add_file:DEBUG: [mainhousetest] New File
+i3dio.utility:as_fs_relative_path:DEBUG: Original filepath: //..\..\..\..\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data\maps\mapFR\textures\windowsRoomInteriorsDay_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: Cleaned filepath: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data\maps\mapFR\textures\windowsRoomInteriorsDay_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: FS data path: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data
+i3dio.utility:as_fs_relative_path:DEBUG: Fs relative path: $data\maps\mapFR\textures\windowsRoomInteriorsDay_diffuse.dds
+i3dio.node_classes.file.Image:_resolve_filepath:INFO: [windowsRoomInteriorsDay_diffuse.dds] Resolved filepath: $data\maps\mapFR\textures\windowsRoomInteriorsDay_diffuse.dds
+i3dio.node_classes.file.Image:_create_xml_element:DEBUG: [windowsRoomInteriorsDay_diffuse.dds] Filling out basic attributes, {name='$data/maps/mapFR/textures/windowsRoomInteriorsDay_diffuse.dds', nodeId='4'}
+i3dio.node_classes.node.Material:_normal_from_nodes:DEBUG: [mainHouseRooms_mat] Has no Normalmap
+i3dio.node_classes.node.Material:_emissive_from_nodes:DEBUG: [mainHouseRooms_mat] Has no Emissivemap
+i3dio.node_classes.node.Material:_resolve_with_nodes:DEBUG: [mainHouseRooms_mat] Has no Glossmap
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [Cube.024] Subset with index [0] based on material 'mainHouseRooms_mat'
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cube.024] Processing subset: materialId="4" numTriangles="70" firstIndex="0" firstVertex="0" numIndices="0" numVertices="0"
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cube.024] Has subset 'mainHouseRooms_mat' with '70' triangles and materialId="4" numTriangles="70" firstIndex="0" firstVertex="0" numIndices="210" numVertices="140"
+i3dio.node_classes.node.IndexedTriangleSet:populate_xml_element:DEBUG: [Cube.024] Has '1' subsets, '70' triangles and '140' vertices
+i3dio.node_classes.node.ShapeNode:populate_xml_element:DEBUG: [rooms] has shape ID '4'
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeObjectAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeShapeAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [rooms] transforming to new transform-basis with <Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)
+            (0.0000, 1.0000, 0.0000, 0.0000)
+            (0.0000, 0.0000, 1.0000, 0.0000)
+            (0.0000, 0.0000, 0.0000, 1.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [rooms] translation is <Vector (0.0000, 0.0000, 0.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [rooms] translation is default
+i3dio.node_classes.node.ShapeNode:__init__:DEBUG: [rooms] Initialized as a 'ShapeNode'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [rooms] processing objects children
+i3dio.exporter:_add_object_to_i3d:DEBUG: [rooms] no more children to process in object
+i3dio.exporter:_add_object_to_i3d:DEBUG: [windows] is of type 'MESH'
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [windows] Filling out basic attributes, {name='windows', nodeId='5'}
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [windows] has parent element with name [house]
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cube.027] is exported with modifiers applied
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cube.027] applying unit scaling
+i3dio.node_classes.node.IndexedTriangleSet:_create_xml_element:DEBUG: [Cube.027] Filling out basic attributes, {name='Cube.027', nodeId='5'}
+i3dio.node_classes.node.IndexedTriangleSet:populate_from_evaluated_mesh:INFO: [Cube.027] Has material 'mainHouseWindows_diffuse'
+i3dio.i3d.I3D:add_material:DEBUG: [mainhousetest] New Material
+i3dio.node_classes.node.Material:_create_xml_element:DEBUG: [mainHouseWindows_diffuse] Filling out basic attributes, {name='mainHouseWindows_diffuse', nodeId='5'}
+i3dio.utility:as_fs_relative_path:DEBUG: Original filepath: //..\..\..\..\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data\maps\mapFR\textures\windowsGlass01_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: Cleaned filepath: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data\maps\mapFR\textures\windowsGlass01_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: FS data path: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data
+i3dio.utility:as_fs_relative_path:DEBUG: Fs relative path: $data\maps\mapFR\textures\windowsGlass01_diffuse.dds
+i3dio.node_classes.node.Material:_diffuse_from_nodes:DEBUG: [mainHouseWindows_diffuse] Has diffuse texture '$data\maps\mapFR\textures\windowsGlass01_diffuse.dds'
+i3dio.i3d.I3D:add_file:DEBUG: [mainhousetest] New File
+i3dio.utility:as_fs_relative_path:DEBUG: Original filepath: //..\..\..\..\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data\maps\mapFR\textures\windowsGlass01_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: Cleaned filepath: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data\maps\mapFR\textures\windowsGlass01_diffuse.dds
+i3dio.utility:as_fs_relative_path:DEBUG: FS data path: C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 22\data
+i3dio.utility:as_fs_relative_path:DEBUG: Fs relative path: $data\maps\mapFR\textures\windowsGlass01_diffuse.dds
+i3dio.node_classes.file.Image:_resolve_filepath:INFO: [windowsGlass01_diffuse.dds] Resolved filepath: $data\maps\mapFR\textures\windowsGlass01_diffuse.dds
+i3dio.node_classes.file.Image:_create_xml_element:DEBUG: [windowsGlass01_diffuse.dds] Filling out basic attributes, {name='$data/maps/mapFR/textures/windowsGlass01_diffuse.dds', nodeId='5'}
+i3dio.node_classes.node.Material:_normal_from_nodes:DEBUG: [mainHouseWindows_diffuse] Has no Normalmap
+i3dio.node_classes.node.Material:_emissive_from_nodes:DEBUG: [mainHouseWindows_diffuse] Has no Emissivemap
+i3dio.node_classes.node.Material:_resolve_with_nodes:DEBUG: [mainHouseWindows_diffuse] Has no Glossmap
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [Cube.027] Subset with index [0] based on material 'mainHouseWindows_diffuse'
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cube.027] Processing subset: materialId="5" numTriangles="14" firstIndex="0" firstVertex="0" numIndices="0" numVertices="0"
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cube.027] Has subset 'mainHouseWindows_diffuse' with '14' triangles and materialId="5" numTriangles="14" firstIndex="0" firstVertex="0" numIndices="42" numVertices="28"
+i3dio.node_classes.node.IndexedTriangleSet:populate_xml_element:DEBUG: [Cube.027] Has '1' subsets, '14' triangles and '28' vertices
+i3dio.node_classes.node.ShapeNode:populate_xml_element:DEBUG: [windows] has shape ID '5'
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeObjectAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeShapeAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [windows] transforming to new transform-basis with <Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)
+            (0.0000, 1.0000, 0.0000, 0.0000)
+            (0.0000, 0.0000, 1.0000, 0.0000)
+            (0.0000, 0.0000, 0.0000, 1.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [windows] translation is <Vector (0.0000, 0.0000, 0.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [windows] translation is default
+i3dio.node_classes.node.ShapeNode:__init__:DEBUG: [windows] Initialized as a 'ShapeNode'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [windows] processing objects children
+i3dio.exporter:_add_object_to_i3d:DEBUG: [windows] no more children to process in object
+i3dio.exporter:_add_object_to_i3d:DEBUG: [house] no more children to process in object

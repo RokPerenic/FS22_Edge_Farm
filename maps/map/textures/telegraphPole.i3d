@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="telegraphPole.blend" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/decalShader.xml"/>
+    <File fileId="1" filename="telegraphPole_diffuse.dds"/>
+    <File fileId="2" filename="telegraphPole_normal.dds"/>
+    <File fileId="3" filename="telegraphPole_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="transformerCable" materialId="4" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="telegraphPole.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="telegraphPole" clipDistance="280" nodeId="51">
+      <Shape shapeId="1" name="telegraphPost" static="true" clipDistance="200" nodeId="52" materialIds="4" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="2" name="crossBar" static="true" clipDistance="200" nodeId="53" materialIds="4">
+          <Shape shapeId="3" name="isolatorsSinglePhase" static="true" clipDistance="200" nodeId="54" materialIds="4" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="wires1" translation="-0.895 8.33 0.08" clipDistance="200" nodeId="55">
+              <Shape shapeId="4" name="cable1" static="true" clipDistance="200" nodeId="56" materialIds="4" castsShadows="true"/>
+              <Shape shapeId="5" name="cable2" static="true" clipDistance="200" nodeId="57" materialIds="4" castsShadows="true"/>
+              <Shape shapeId="6" name="cable3" static="true" clipDistance="200" nodeId="58" materialIds="4" castsShadows="true"/>
+              <Shape shapeId="7" name="cable4" static="true" clipDistance="200" nodeId="59" materialIds="4" castsShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="wires3" translation="0.895 8.33 0.08" clipDistance="200" nodeId="60">
+              <Shape shapeId="4" name="cable1" static="true" clipDistance="200" nodeId="61" materialIds="4" castsShadows="true"/>
+              <Shape shapeId="5" name="cable2" static="true" clipDistance="200" nodeId="62" materialIds="4" castsShadows="true"/>
+              <Shape shapeId="6" name="cable3" static="true" clipDistance="200" nodeId="63" materialIds="4" castsShadows="true"/>
+              <Shape shapeId="7" name="cable4" static="true" clipDistance="200" nodeId="64" materialIds="4" castsShadows="true"/>
+            </TransformGroup>
+          </Shape>
+          <Shape shapeId="8" name="isolatorThreePhase" static="true" clipDistance="200" nodeId="65" materialIds="4">
+            <TransformGroup name="wires2" translation="0 8.61115 0.08" clipDistance="200" nodeId="66">
+              <Shape shapeId="4" name="cable1" static="true" clipDistance="200" nodeId="67" materialIds="4" castsShadows="true"/>
+              <Shape shapeId="5" name="cable2" static="true" clipDistance="200" nodeId="68" materialIds="4" castsShadows="true"/>
+              <Shape shapeId="6" name="cable3" static="true" clipDistance="200" nodeId="69" materialIds="4" castsShadows="true"/>
+              <Shape shapeId="9" name="cable4" static="true" clipDistance="200" nodeId="70" materialIds="4" castsShadows="true"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="10" name="telegraphPostWarning" static="true" clipDistance="30" nodeId="71" materialIds="4">
+          <Shape shapeId="11" name="telegraphPostWarning" static="true" clipDistance="30" nodeId="72" materialIds="4"/>
+          <Shape shapeId="12" name="telegraphPostWarning" translation="0 0.0969233 1.70404" scale="0.867373 1 1" static="true" clipDistance="30" nodeId="73" materialIds="4"/>
+        </Shape>
+        <Shape shapeId="13" name="telegraphPostSupport" rotation="-0 -180 -0" static="true" clipDistance="250" nodeId="74" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="14" name="sideIsolator" static="true" clipDistance="200" nodeId="75" materialIds="4" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="wires4" translation="0.299309 7.55482 0.0128195" clipDistance="200" nodeId="76">
+            <Shape shapeId="4" name="cable1" static="true" clipDistance="200" nodeId="77" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="5" name="cable2" static="true" clipDistance="200" nodeId="78" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="6" name="cable3" static="true" clipDistance="200" nodeId="79" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="9" name="cable4" static="true" clipDistance="200" nodeId="80" materialIds="4" castsShadows="true"/>
+          </TransformGroup>
+        </Shape>
+        <Shape shapeId="15" name="sideIsolatorCableTV" static="true" clipDistance="110" nodeId="81" materialIds="4" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="wires5" translation="0.208484 6.87843 0.00108756" clipDistance="110" nodeId="82">
+            <Shape shapeId="16" name="cable1" static="true" clipDistance="110" nodeId="83" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="17" name="cable2" static="true" clipDistance="110" nodeId="84" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="18" name="cable3" static="true" clipDistance="110" nodeId="85" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="19" name="cable4" static="true" clipDistance="110" nodeId="86" materialIds="4" castsShadows="true"/>
+          </TransformGroup>
+          <Shape shapeId="20" name="TVCableOut" clipDistance="30" nodeId="87" materialIds="4"/>
+        </Shape>
+        <Shape shapeId="21" name="metalGuyWire" static="true" clipDistance="50" nodeId="88" materialIds="4" castsShadows="true"/>
+        <Shape shapeId="22" name="sideSteps" static="true" clipDistance="40" nodeId="89" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="23" name="crossBar90" clipDistance="200" nodeId="90" materialIds="4">
+          <TransformGroup name="wires6" translation="0.0832197 7.86281 0.893855" clipDistance="200" nodeId="91">
+            <Shape shapeId="24" name="cable1" static="true" clipDistance="200" nodeId="92" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="25" name="cable2" static="true" clipDistance="200" nodeId="93" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="26" name="cable3" static="true" clipDistance="200" nodeId="94" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="27" name="cable4" static="true" clipDistance="200" nodeId="95" materialIds="4" castsShadows="true"/>
+          </TransformGroup>
+          <TransformGroup name="wires7" translation="0.0832197 7.86281 -0.894" clipDistance="200" nodeId="96">
+            <Shape shapeId="28" name="cable1" static="true" clipDistance="200" nodeId="97" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="25" name="cable2" static="true" clipDistance="200" nodeId="98" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="26" name="cable3" static="true" clipDistance="200" nodeId="99" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="29" name="cable4" static="true" clipDistance="200" nodeId="100" materialIds="4" castsShadows="true"/>
+          </TransformGroup>
+          <TransformGroup name="3PhaseUpperwire90" translation="0 8.61115 0.08" clipDistance="200" nodeId="101">
+            <Shape shapeId="30" name="cable1" static="true" clipDistance="200" nodeId="102" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="31" name="cable2" static="true" clipDistance="200" nodeId="103" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="32" name="cable3" static="true" clipDistance="200" nodeId="104" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="33" name="cable4" static="true" clipDistance="200" nodeId="105" materialIds="4" castsShadows="true"/>
+          </TransformGroup>
+          <TransformGroup name="wires5" translation="0.186711 6.87843 0.00120231" clipDistance="110" nodeId="106">
+            <Shape shapeId="34" name="cable1" static="true" clipDistance="110" nodeId="107" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="35" name="cable2" static="true" clipDistance="110" nodeId="108" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="36" name="cable3" static="true" clipDistance="110" nodeId="109" materialIds="4" castsShadows="true"/>
+            <Shape shapeId="37" name="cable4" static="true" clipDistance="110" nodeId="110" materialIds="4" castsShadows="true"/>
+          </TransformGroup>
+          <Shape shapeId="38" name="crossBar90Cables" clipDistance="60" nodeId="111" materialIds="4"/>
+          <Shape shapeId="39" name="isulatorsSinglePhase90" clipDistance="200" nodeId="112" materialIds="4"/>
+          <Shape shapeId="40" name="metalDecoNutsBolts90" clipDistance="50" nodeId="113" materialIds="4"/>
+          <Shape shapeId="41" name="metalDecoIsolators90" clipDistance="50" nodeId="114" materialIds="4"/>
+        </Shape>
+        <Shape shapeId="42" name="Transformer" clipDistance="100" nodeId="115" materialIds="4">
+          <Shape shapeId="43" name="TransformerCable" static="true" clipDistance="60" nodeId="116" materialIds="4"/>
+        </Shape>
+        <Shape shapeId="44" name="metalDecoNutsBolts" clipDistance="40" nodeId="118" materialIds="4"/>
+        <Shape shapeId="45" name="metalDeco" clipDistance="60" nodeId="125" materialIds="4"/>
+        <Shape shapeId="46" name="metalWireCover" clipDistance="40" nodeId="126" materialIds="4"/>
+      </Shape>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

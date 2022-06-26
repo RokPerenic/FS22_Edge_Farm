@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="62">
+    <author>VR Modding</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Edge farm</en>
+    </title>
+    <description>
+        <en><![CDATA[Welcome to Edge farm, a DEM map located in east Devon.]]></en>
+        <de><![CDATA[Willkommen bei Edge Farm, einer DEM-Karte im Osten von Devon.]]></de>
+    </description>
+    <iconFilename>icon.png</iconFilename>
+    <multiplayer supported="true"/>
+    <maps>
+        <map id="EdgeFarm" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/map/map.xml" defaultVehiclesXMLFilename="maps/map/vehicles.xml" defaultPlaceablesXMLFilename="maps/map/placeables.xml" defaultItemsXMLFilename="maps/map/items.xml">
+            <title>
+                <en>Edge Farm</en>
+                <de>Edge Farm</de>
+            </title>
+            <description>
+                <en>Welcome to the Edge farm, a farm set in Devon, UK.</en>
+                <de>Willkommen auf der Edge Farm, einer Farm in Devon, Großbritannien.</de>
+            </description>
+            <iconFilename>preview.png</iconFilename>
+        </map>
+    </maps>
+	
+	<l10n>
+    <text name="shop_EdgeStores"> 
+		<en>The Edge Stores</en> 
+		<de>Die Edge-Stores</de> 
+		<fr>Les magasins Edge</fr> 
+	</text>
+	<text name="shop_EdgeStoresBales"> 
+		<en>The Edge Stores Bales</en> 
+		<de>The Edge speichert Ballen</de> 
+		<fr>The Edge stocke des balles</fr> 
+	</text>
+	<text name="shop_kingShopStores"> 
+		<en>King shop Stores</en> 
+		<de>König Shop speichert</de> 
+		<fr>Magasins King Shop</fr> 
+	</text>
+	<text name="shopItem_farmersmarket"> 
+		<en>Farmers market</en> 
+		<de>Bauernmarkt</de> 
+		<fr>Marché fermier</fr> 
+	</text>
+	</l10n>
+	
+	
+	<storeItems>
+		<storeItem xmlFilename="$data/placeables/rudolfHormann/horseBarnBig/horseBarnBig.xml" />
+		<storeItem xmlFilename="maps/map/placeables/sleeptrigger/sleeptrigger.xml" />
+		<storeItem xmlFilename="maps/map/placeables/sellingStationBales/sellingStationBales.xml" />
+		<storeItem xmlFilename="maps/map/placeables/sellingStationGeneric/sellingStationGenericnolid.xml" />
+		<storeItem xmlFilename="maps/map/placeables/sellingStationGeneric/sellingStationGenericnolid2.xml" />
+		<storeItem xmlFilename="maps/map/placeables/sellingStationGeneric/sellingStationGenericnolid3.xml" />
+		<storeItem xmlFilename="maps/map/placeables/pigBarnSmall/pigBarnSmall.xml" />
+		<storeItem xmlFilename="maps/map/placeables/sheepBarnSmall/sheepBarnSmall.xml" />
+		<storeItem xmlFilename="maps/map/placeables/chickenBarnSmall/chickenBarnSmall.xml" />
+		<storeItem xmlFilename="maps/map/placeables/bunkerSilo/bunker.xml" />
+		<storeItem xmlFilename="maps/map/placeables/cowBarnBig/cowBarnBig.xml" />
+		<storeItem xmlFilename="$data/placeables/planET/bga99kw/bga99kw.xml" />
+		<storeItem xmlFilename="$data/placeables/planET/bgaBunkerSilo/bgaBunkerSilo.xml" />
+		<storeItem xmlFilename="maps/map/placeables/gasStation/gasStation01.xml" />
+	</storeItems>
+</modDesc>

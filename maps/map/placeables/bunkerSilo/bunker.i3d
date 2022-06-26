@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="bunker.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="bunker" materialId="43">
+      <Texture fileId="2"/>
+    </Material>
+    <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="bunker.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="bunkerSiloSmall" nodeId="8">
+        <TransformGroup name="gameplay" translation="0 0 -0.302275" nodeId="9">
+          <TransformGroup name="siloArea" translation="0.249477 -0.000137329 -0.0565338" rotation="0 0.0546188 0" nodeId="10">
+            <TransformGroup name="siloAreaStart" translation="5.36353 -0.0258331 10.2665" nodeId="11"/>
+            <TransformGroup name="siloAreaStart" translation="-5.8089 -0.0258331 10.2665" nodeId="12"/>
+            <TransformGroup name="siloAreaStart" translation="5.36353 -0.0258331 -11.8237" nodeId="13"/>
+            <Shape shapeId="1" name="siloTrigger" translation="-0.201011 -0.199493 -0.757825" scale="2 1 0.7" static="true" trigger="true" collisionMask="3145728" nodeId="14" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </TransformGroup>
+          <TransformGroup name="siloInnerArea" translation="0.763268 -0.000175476 -0.123001" nodeId="15">
+            <TransformGroup name="siloAreaStart" translation="3.76692 0.00230408 10.1863" nodeId="16"/>
+            <TransformGroup name="siloAreaStart" translation="-5.19651 0.00230408 10.1863" nodeId="17"/>
+            <TransformGroup name="siloAreaStart" translation="3.76692 0.00230408 -10.6521" nodeId="18"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="clearAreas" nodeId="19">
+          <TransformGroup name="clearArea1Start" translation="-3.5 0 -15.7" nodeId="20">
+            <TransformGroup name="clearArea1Width" translation="0 0 31.4" nodeId="21"/>
+            <TransformGroup name="clearArea1Height" translation="7 0 0" nodeId="22"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="levelAreas" nodeId="23">
+          <TransformGroup name="levelArea1Start" translation="-4.25 0 -20.5" nodeId="24">
+            <TransformGroup name="levelArea1Width" translation="0 0 41" nodeId="25"/>
+            <TransformGroup name="levelArea1Height" translation="8.5 0 0" nodeId="26"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="testAreas" nodeId="27">
+          <TransformGroup name="testArea1Start" translation="-3.5 0 -15.7" nodeId="28">
+            <TransformGroup name="testArea1End" translation="7 2 31.4" nodeId="29"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="tipOcclusionUpdateAreas" nodeId="30">
+          <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-4.07096 0 -15.9911" nodeId="31">
+            <TransformGroup name="tipOcclusionUpdateArea1End" translation="7.72564 0 32.0375" nodeId="32"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="tipCollision" nodeId="33">
+          <Shape shapeId="2" name="tipCollision" visibility="false" static="true" collisionMask="524288" nodeId="34" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </TransformGroup>
+        <TransformGroup name="visuals" nodeId="35"/>
+        <TransformGroup name="collisions" nodeId="36"/>
+        <Shape shapeId="3" name="bunker" translation="-0.782169 0 0.218" scale="1 1.58259 1" static="true" clipDistance="100" nodeId="46" materialIds="43" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="28">
+      <Attribute name="nts" type="string" value=" "/>
+    </UserAttribute>
+    <UserAttribute nodeId="34">
+      <Attribute name="collisionHeight" type="float" value="2"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="AO_muret.dds"/>
+    <File fileId="1" filename="AO_pilier.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="pilier" materialId="5">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="muret" materialId="4">
+      <Texture fileId="2"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="muret+pilier.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="transform" nodeId="9">
+      <Shape shapeId="1" name="pilier" translation="0 1.33548 -0.418126" rotation="-90 -0 0" nodeId="10" materialIds="5" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+      <Shape shapeId="2" name="muret" translation="-0.00267514 0.999256 1.49076" rotation="-90 -0 0" nodeId="11" materialIds="4" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

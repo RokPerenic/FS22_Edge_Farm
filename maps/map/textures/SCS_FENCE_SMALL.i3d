@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="SCS_US_UNTERSTAENDE" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="SCS_RED_BARN_STONE_WALL.dds"/>
+    <File fileId="2" filename="SCS_RED_BARN_STONE_WALL_SPEC.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="UnnamedMaterial" materialId="5" diffuseColor="1 1 1 1">
+    </Material>
+    <Material name="lSCS_BRETTER_WEISS" materialId="4">
+      <Texture fileId="1"/>
+      <Glossmap fileId="2"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="SCS_FENCE_SMALL.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="transform" clipDistance="100" nodeId="9">
+      <Shape shapeId="1" name="polySurface1554" translation="0 -0.00438882 0" nodeId="10" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="cube" translation="0 0.669683 0.0268869" scale="0.2 1.7 0.2" static="true" nodeId="11" materialIds="5" nonRenderable="true" distanceBlending="false"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

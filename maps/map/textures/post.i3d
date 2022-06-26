@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D version="1.6" name="post" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Files>
+    </Files>
+    <Materials>
+      <Material name="Material #25" materialId="1" ambientColor="0.5879999 0.5879999 0.5879999" diffuseColor="0.5879999 0.5879999 0.5879999 1" cosPower="10">
+      </Material>
+    </Materials>
+  <Shapes externalShapesFile="post.i3d.shapes">
+  </Shapes>
+
+    <Scene>
+      <Shape name="Plane001" nodeId="1" shapeId="1" materialIds="1" castsShadows="true" receiveShadows="true" static="true">
+      </Shape>
+    </Scene>
+
+</i3D>

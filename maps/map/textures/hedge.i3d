@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.2.2"/>
+    </Asset>
+    <Files>
+        <File fileId="2" filename="shrub01_LOD.dds"/>
+        <File fileId="1" filename="shrub01_diffuse.dds"/>
+    </Files>
+    <Materials>
+        <Material name="Material.001" materialId="1155" alphaBlending="true">
+            <Texture fileId="2"/>
+        </Material>
+        <Material name="material110" materialId="1201">
+            <Texture fileId="1"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="hedge.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="shrubLong9m_LOD" translation="-49.9631 107.765 550.344" rotation="-173.415 -9.21797 179.111" clipDistance="1500" nodeId="12638" lodDistance="0 130">
+            <Shape shapeId="1" name="shrubLong9m_lod0" clipDistance="10000" nodeId="12639" materialIds="1201" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="2" name="shrubLong9m_lod1" translation="0 -0.5 0" scale="0.6 0.6 0.5" clipDistance="10000" nodeId="12640" materialIds="1155" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+    </Scene>
+</i3D>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<prefabDesc descVersion="1">
+    <author>Piesel</author>
+    <version>1.0.0.0</version>
+	
+	<title>
+        <en>Decoration package</en>
+		<de>Dekorationspaket</de>
+		<pl>Paczka Dekoracji</pl>		
+    </title>
+	
+	<iconFilename>icon.dds</iconFilename>
+	
+	<description>
+        <en>
+            <![CDATA[
+Mega large package of objects for the map
+]]>
+        </en>
+        <de>
+            <![CDATA[
+Mega großes Paket an Objekten für die Map
+]]>
+        </de>
+        <pl>
+            <![CDATA[
+Mega duży pakiet obiektów na mapę
+]]>
+        </pl>		
+		
+    </description>
+	
+	<categories>
+        <category>others</category>
+    </categories>
+	
+	<prefabs>
+		<prefab name="2/3/4/5/7/8" i3dFilename="234578.i3d" />	
+		<prefab name="1/6" i3dFilename="16.i3d" />
+		<prefab name="1/2" i3dFilename="12.i3d" />		
+		<prefab name="13" i3dFilename="13.i3d" />			
+    </prefabs>
+</prefabDesc>

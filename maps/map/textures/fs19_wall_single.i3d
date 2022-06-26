@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="FS19_wall.blend" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="1" filename="FS19_Wall01.dds"/>
+    <File fileId="3" filename="FS19_Wall01_Mask.dds"/>
+    <File fileId="2" filename="FS19_Wall01_Normal.dds"/>
+    <File fileId="5" filename="FS19_Wall01_Specular01.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="Material.001" materialId="4" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMaskMap" fileId="5"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="fs19_wall_single.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="wallSingle" clipDistance="225" nodeId="9">
+      <Shape shapeId="1" name="wallSingle" static="true" clipDistance="225" nodeId="10" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="areas" nodeId="11">
+        <TransformGroup name="start" translation="-0.349216 0 -0.174814" nodeId="12">
+          <TransformGroup name="width" translation="0.609395 0 0" nodeId="13"/>
+          <TransformGroup name="height" translation="0 0 4.47083" nodeId="14"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="2" name="tipBlocker" translation="0 0 2.19354" visibility="false" static="true" collisionMask="524288" nodeId="15" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+    </TransformGroup>
+    <Camera name="Camera" translation="0.147896 6.02821 -9.89869" rotation="151.604 8.61157 -179.819" nodeId="16" fov="35" nearClip="0.1" farClip="100" orthographicHeight="1"/>
+  </Scene>
+
+</i3D>

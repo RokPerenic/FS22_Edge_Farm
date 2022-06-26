@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.2.2"/>
+    </Asset>
+    <Files>
+        <File fileId="1" filename="bakery.dds"/>
+        <File fileId="3" filename="buildingWindowsLit_diffuse6.png"/>
+        <File fileId="2" filename="mbzh011_Normal.dds"/>
+    </Files>
+    <Materials>
+        <Material name="01 - Default" materialId="114">
+            <Texture fileId="1"/>
+            <Normalmap fileId="2" bumpDepth="0.333333"/>
+        </Material>
+        <Material name="acmat_1" materialId="324" specularColor="1 1 1">
+            <Texture fileId="3"/>
+            <Emissivemap fileId="3"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="ahouse.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="Bakery" translation="328.829 62.2499 316.722" rotation="0 14.5542 -4.21159e-07" nodeId="23536" lodDistance="0 40 60">
+            <Shape shapeId="1" name="mbzh01" static="true" nodeId="23537" materialIds="114" castsShadows="true" receiveShadows="true">
+                <TransformGroup name="litWindows" nodeId="23538">
+                    <Shape shapeId="2" name="litWindow" translation="2.71783 4.63631 3.31" scale="2.43 1.64 1" clipDistance="10000" nodeId="23539" materialIds="324" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="2" name="litWindow" translation="-2.73076 4.63631 3.31" scale="2.43 1.64 1" clipDistance="10000" nodeId="23540" materialIds="324" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+            </Shape>
+            <Shape shapeId="3" name="mbzh02" nodeId="23541" materialIds="114" castsShadows="true" receiveShadows="true">
+                <TransformGroup name="litWindows" nodeId="23542">
+                    <Shape shapeId="2" name="litWindow" translation="2.71783 4.63631 3.51" scale="2.43 1.64 1" clipDistance="10000" nodeId="23543" materialIds="324" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="2" name="litWindow" translation="-2.73076 4.63631 3.51" scale="2.43 1.64 1" clipDistance="10000" nodeId="23544" materialIds="324" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+            </Shape>
+            <Shape shapeId="4" name="mbzh03" clipDistance="500" nodeId="23545" materialIds="114" castsShadows="true" receiveShadows="true">
+                <TransformGroup name="litWindows" nodeId="23546">
+                    <Shape shapeId="2" name="litWindow" translation="2.71783 4.63631 3.51" scale="2.43 1.64 1" clipDistance="10000" nodeId="23547" materialIds="324" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="2" name="litWindow" translation="-2.73076 4.63631 3.51" scale="2.43 1.64 1" clipDistance="10000" nodeId="23548" materialIds="324" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+            </Shape>
+        </TransformGroup>
+    </Scene>
+    <UserAttributes>
+        <UserAttribute nodeId="23538">
+            <Attribute name="onCreate" type="scriptCallback" value="Nightlight2.onCreate"/>
+        </UserAttribute>
+        <UserAttribute nodeId="23542">
+            <Attribute name="onCreate" type="scriptCallback" value="Nightlight2.onCreate"/>
+        </UserAttribute>
+        <UserAttribute nodeId="23546">
+            <Attribute name="onCreate" type="scriptCallback" value="Nightlight2.onCreate"/>
+        </UserAttribute>
+    </UserAttributes>
+</i3D>

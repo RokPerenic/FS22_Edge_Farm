@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.2.2"/>
+    </Asset>
+    <Files>
+        <File fileId="1" filename="firewoodStackSet_diffuse.png"/>
+        <File fileId="2" filename="firewoodStackSet_normal.png"/>
+        <File fileId="3" filename="firewoodStackSet_specular.png"/>
+    </Files>
+    <Materials>
+        <Material name="default" materialId="1281" diffuseColor="0.494118 0.494118 0.494118 1"/>
+        <Material name="firewoodStackSet_mat" materialId="281">
+            <Texture fileId="1"/>
+            <Normalmap fileId="2"/>
+            <Glossmap fileId="3"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="firewood.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="firewoodstackLarge" translation="-41.5641 141.758 802.736" rotation="-180 -1.4519 -180" scale="0.7 0.8 0.8" clipDistance="50" nodeId="32090" materialIds="281" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="2" name="col" translation="2.16644e-05 -0.00504692 0.0361842" visibility="false" static="true" density="0.0001" nodeId="32091" materialIds="1281" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+    </Scene>
+</i3D>

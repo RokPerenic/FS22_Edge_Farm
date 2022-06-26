@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="roaddirt.dds"/>
+    <File fileId="3" filename="roaddirt_normal.dds"/>
+    <File fileId="2" filename="verge_diffuse.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="rightEdge_diffuse" materialId="63935">
+      <Texture fileId="2"/>
+    </Material>
+    <Material name="road_diffuse" materialId="63934">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="road_diffuse" materialId="220">
+      <Texture fileId="1"/>
+      <Normalmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="ok.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <Shape shapeId="1" name="cesta" translation="-283.489 159.6 -57.919" static="true" clipDistance="500" nodeId="63938" materialIds="63934,63935,63935" receiveShadows="true">
+        <TransformGroup name="SplinePkt1" translation="133.887 -7.9246 -83.8717" rotation="0 -89.2287 0" nodeId="63939"/>
+        <TransformGroup name="SplinePkt2" translation="122.361 -7.0754 -87.6742" rotation="0 -89.2287 0" nodeId="63940"/>
+        <TransformGroup name="SplinePkt3" translation="99.7835 -5.4996 -81.7944" rotation="0 -76.4814 0" nodeId="63941"/>
+        <TransformGroup name="SplinePkt4" translation="83.097 -4.3631 -78.7445" rotation="0 -51.5005 0" nodeId="63942"/>
+        <TransformGroup name="SplinePkt5" translation="66.9276 -3.8946 -63.6158" rotation="0 -44.425 0" nodeId="63943"/>
+        <TransformGroup name="SplinePkt6" translation="53.318 -1.8597 -51.2777" rotation="0 -44.425 0" nodeId="63944"/>
+        <TransformGroup name="SplinePkt7" translation="38.2516 1.5738 -36.159" rotation="0 -44.425 0" nodeId="63945"/>
+        <TransformGroup name="SplinePkt8" translation="14.2726 2.675 -10.4962" rotation="0 -44.425 0" nodeId="63946"/>
+        <TransformGroup name="SplinePkt9" translation="-9.0689 4.3083 5.1033" rotation="0 -59.2684 0" nodeId="63947"/>
+        <TransformGroup name="SplinePkt10" translation="-32.5016 4.6551 21.4264" rotation="0 -44.0309 0" nodeId="63948"/>
+        <TransformGroup name="SplinePkt11" translation="-61.8195 4.9353 50.0444" rotation="0 -44.0309 0" nodeId="63949"/>
+        <TransformGroup name="SplinePkt12" translation="-86.5473 5.1571 71.2772" rotation="0 -44.0309 0" nodeId="63950"/>
+        <TransformGroup name="SplinePkt13" translation="-126.274 4.951 108.773" rotation="0 -44.0309 0" nodeId="63951"/>
+        <TransformGroup name="SplinePkt14" translation="-169.671 4.2499 143.462" rotation="0 -61.2677 0" nodeId="63952"/>
+        <TransformGroup name="SplinePkt15" translation="-225.8 3.611 175.342" rotation="0 -62.9163 0" nodeId="63953"/>
+      </Shape>
+      <Shape shapeId="2" name="cesta" static="true" clipDistance="500" nodeId="53555" materialIds="220,220,220" receiveShadows="true">
+        <TransformGroup name="SplinePkt1" rotation="14.4049 35.0772 3.3883" nodeId="53556"/>
+        <TransformGroup name="SplinePkt2" rotation="-1.3711 35.0539 1.002" nodeId="53557"/>
+        <TransformGroup name="SplinePkt3" rotation="4.0233 51.0168 -3.3407" nodeId="53558"/>
+        <TransformGroup name="SplinePkt4" rotation="5.199 30.9933 -0.603" nodeId="53559"/>
+        <TransformGroup name="SplinePkt5" rotation="4.8689 23.7674 -1.3193" nodeId="53560"/>
+        <TransformGroup name="SplinePkt6" rotation="1.4754 51.2626 -4.5996" nodeId="53561"/>
+        <TransformGroup name="SplinePkt7" rotation="6.5117 50.979 1.8671" nodeId="53562"/>
+      </Shape>
+  </Scene>
+
+</i3D>

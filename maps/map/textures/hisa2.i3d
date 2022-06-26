@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.2.2"/>
+    </Asset>
+    <Files>
+        <File fileId="1" filename="AO_Maison.dds"/>
+    </Files>
+    <Materials>
+        <Material name="maison" materialId="1023">
+            <Texture fileId="1"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="hisa2.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="Maison1" translation="124.562 98.1131 349.986" rotation="-90 -68.9132 8.93699e-06" scale="6 6 6" static="true" clipDistance="200" nodeId="33760" materialIds="1023" castsShadows="true" receiveShadows="true"/>
+    </Scene>
+</i3D>

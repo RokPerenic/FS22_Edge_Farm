@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="gate1" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.1"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="$data/shaders/placeableShader.xml"/>
+    <File fileId="1" filename="gate_diffuse.dds"/>
+    <File fileId="2" filename="gate_normal.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="gate_mat" materialId="4" customShaderId="3">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+      <CustomParameter name="snowScale" value="1 0 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="gate1.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="gate1" translation="0 -0.177195 -2.61042" rotation="-6.83019e-06 -0 0" nodeId="9">
+        <Shape shapeId="1" name="gate" translation="0 0.325315 0.0900743" rotation="-6.83019e-06 -0 0" nodeId="10" materialIds="4"/>
+        <Shape shapeId="2" name="hitch" translation="0 0.951512 5.01007" rotation="90 -0 0" nodeId="11" materialIds="4"/>
+        <Shape shapeId="3" name="pole" translation="0 0.177195 2.61042" rotation="-6.83019e-06 -0 0" nodeId="12" materialIds="4"/>
+      </TransformGroup>
+  </Scene>
+
+</i3D>

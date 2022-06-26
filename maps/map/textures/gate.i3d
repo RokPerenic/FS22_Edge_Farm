@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.1"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="Newgatespec.dds"/>
+    <File fileId="3" filename="NormalMapgatenew.dds"/>
+    <File fileId="2" filename="gate50.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Material.003" materialId="4">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="5" diffuseColor="1 1 1 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="gate.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="gate53" translation="-90.2326 99.2697 356.372" rotation="75.0655 83.5373 73.9671" scale="1 1 0.9" clipDistance="150" nodeId="11">
+        <Shape shapeId="1" name="trigger" translation="0.17212 0.104 3.346" scale="1 0.3 1.6" static="true" trigger="true" collisionMask="3145728" nodeId="12" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="2" name="Gate" kinematic="true" nodeId="13" materialIds="4" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="Handle" kinematic="true" nodeId="14" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="4" name="post" static="true" nodeId="15" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="11">
+      <Attribute name="index" type="string" value="gate"/>
+      <Attribute name="onCreate" type="scriptCallback" value="AnimatedMapObject.onCreate"/>
+      <Attribute name="xmlFilename" type="string" value="maps/animatedObjects.xml"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>
