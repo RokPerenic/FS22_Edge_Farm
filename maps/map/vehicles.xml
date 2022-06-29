@@ -344,7 +344,7 @@
             <unit index="1" fillType="SEEDS" fillLevel="1000.000000"/>
         </fillUnit>
     </vehicle>
-    <vehicle filename="data/objects/bigBagPallet/seeds/bigBagPallet_seeds.xml" id="14"defaultFarmProperty="true" isAbsolute="true" age="0.000000" price="900.000000" farmId="1" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+    <vehicle filename="data/objects/bigBagPallet/seeds/bigBagPallet_seeds.xml" id="14" defaultFarmProperty="true" isAbsolute="true" age="0.000000" price="900.000000" farmId="1" propertyState="1" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
         <component index="1" position="-260.07720947266 164.48406982422 -261.33892822266" rotation="179.90669096452 43.667243514967 179.73441993327"/>
         <configuration name="fillUnit" id="1"/>
         <boughtConfiguration name="fillUnit" id="1"/>
