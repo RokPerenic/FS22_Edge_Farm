@@ -6,9 +6,34 @@
         <en>Edge farm</en>
     </title>
     <description>
-        <en><![CDATA[Welcome to Edge farm, a DEM map located in east Devon.]]></en>
-        <de><![CDATA[Willkommen bei Edge Farm, einer DEM-Karte im Osten von Devon.]]></de>
-    </description>
+        <en><![CDATA[Welcome to Edge farm, a DEM map located in east Devon.
+		
+- Most of the fields are accurate to real life with a few exceptions.
+- Custom lighting
+- 114 fields varying in size and shape
+- 1 Placeables areas
+- 3 Sell points
+- Seasons visuals
+- Collectables
+- British license plates 
+
+Watch out because on the edges on the map is very steep terrain so it's not recommended to farm there if you don't have the right machinery.
+The map is not focused on forestry but all the forests can be bought. There is no wood processing on the map built in so you can place them on the top left of the map.
+	]]></en>
+        <de><![CDATA[Willkommen auf der Edge Farm, einer DEM-Karte im Osten von Devon.
+
+- Die meisten Felder entsprechen bis auf wenige Ausnahmen dem wirklichen Leben.
+- Benutzerdefinierte Beleuchtung
+- 114 Felder unterschiedlicher Größe und Form
+- 1 platzierbare Bereiche
+- 3 Verkaufspunkte
+- Jahreszeiten-Visuals
+- Sammlerstücke
+- Britische Nummernschilder
+
+Passen Sie auf, denn an den Rändern der Karte befindet sich sehr steiles Gelände. Es wird daher nicht empfohlen, dort zu farmen, wenn Sie nicht über die richtigen Maschinen verfügen.
+Die Karte konzentriert sich nicht auf die Forstwirtschaft, aber alle Wälder können gekauft werden. Es ist keine Holzverarbeitung auf der Karte eingebaut, sodass Sie sie oben links auf der Karte platzieren können.
+	]]></de>    </description>
     <iconFilename>icon.png</iconFilename>
     <multiplayer supported="true"/>
     <maps>
