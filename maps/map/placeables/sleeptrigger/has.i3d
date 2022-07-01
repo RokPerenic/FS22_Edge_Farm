@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="7" filename="$data/maps/mapFR/textures/doorsSET_diffuse.png"/>
+    <File fileId="8" filename="$data/maps/mapFR/textures/doorsSET_normal.png"/>
+    <File fileId="4" filename="$data/maps/mapFR/textures/windowsCurtains01_diffuse.png"/>
+    <File fileId="5" filename="$data/maps/mapFR/textures/windowsCurtains01_normal.png"/>
+    <File fileId="10" filename="$data/maps/mapFR/textures/windowsGlass01_diffuse.png"/>
+    <File fileId="11" filename="$data/maps/mapFR/textures/windowsGlass01_normal.png"/>
+    <File fileId="9" filename="$data/maps/mapFR/textures/windowsRoomInteriorsDay_diffuse.png"/>
+    <File fileId="12" filename="$data/maps/textures/shared/snow_diffuse.png"/>
+    <File fileId="13" filename="$data/maps/textures/shared/snow_normal.png"/>
+    <File fileId="14" filename="$data/maps/textures/shared/snow_specular.png"/>
+    <File fileId="15" filename="$data/shaders/snowHeapShader.xml"/>
+    <File fileId="1" filename="../../textures/myhouse2_diffuse.dds"/>
+    <File fileId="2" filename="../../textures/myhouse2_normal.dds"/>
+    <File fileId="3" filename="../../textures/myhouse2_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="backHouse" materialId="39" diffuseColor="0 0 0 1" specularColor="0.494118 1 0">
+    </Material>
+    <Material name="houseMain_mat" materialId="111">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="houseMain_mat" materialId="112">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="houseMainDoor_mat" materialId="113" specularColor="0.494118 1 0">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+    </Material>
+    <Material name="mainHouseCurtains_mat" materialId="135" specularColor="0.494118 1 0">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+    </Material>
+    <Material name="mainHouseCurtains_mat" materialId="136" specularColor="0.494118 1 0" alphaBlending="true">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+    </Material>
+    <Material name="mainHouseRooms_mat" materialId="137" specularColor="0.494118 1 0">
+      <Texture fileId="9"/>
+    </Material>
+    <Material name="mainHouseWindows_diffuse" materialId="138" specularColor="0.494118 1 0">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+    </Material>
+    <Material name="snowMat" materialId="204" customShaderId="15">
+      <Texture fileId="12"/>
+      <Normalmap fileId="13"/>
+      <Glossmap fileId="14"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="has.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <Shape shapeId="1" name="house" lockedgroup="true" translation="-234.905 272.761 -137.88" rotation="180 33.467 180" static="true" clipDistance="300" nodeId="94543" materialIds="112" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="2" name="curtains" static="true" nodeId="94544" materialIds="135" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="3" name="door" static="true" nodeId="94545" materialIds="113" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="4" name="rooms" static="true" nodeId="94546" materialIds="137" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="5" name="windows" static="true" nodeId="94547" materialIds="138" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="snow" translation="-1.98186 0.581161 -0.265335" rotation="180 -22.173 180" nodeId="94548" weatherRequiredMask="1024">
+          <Shape shapeId="6" name="snow" translation="-1.76143 -0.660721 -0.974648" rotation="180 22.1728 180" static="true" clipDistance="300" nodeId="94549" materialIds="204" castsShadows="true" receiveShadows="true" weatherRequiredMask="1024"/>
+          <Shape shapeId="6" name="snow" translation="1.76147 0.660721 0.974692" rotation="180 -67.827 -180" scale="0.350085 0.257115 0.217417" static="true" clipDistance="300" nodeId="94550" materialIds="204" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <Shape shapeId="7" name="houseExtended" lockedgroup="true" translation="0.524048 0.590271 10.8633" rotation="-6.46302e-07 0 -1.54719e-10" static="true" nodeId="94551" materialIds="111">
+          <Shape shapeId="8" name="curtains" scale="1.0105 1.0105 1.0105" nodeId="94552" materialIds="136"/>
+          <Shape shapeId="9" name="door" static="true" nodeId="94553" materialIds="113"/>
+          <Shape shapeId="6" name="snow" translation="0 -2.14697 0.251508" scale="1.07085 1 0.794323" static="true" clipDistance="300" nodeId="94554" materialIds="204" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="10" name="window" nodeId="94555" materialIds="39"/>
+        </Shape>
+      </Shape>
+  </Scene>
+
+</i3D>

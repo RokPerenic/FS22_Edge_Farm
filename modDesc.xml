@@ -95,5 +95,6 @@ Die Karte konzentriert sich nicht auf die Forstwirtschaft, aber alle Wälder kö
 		<storeItem xmlFilename="$data/placeables/planET/bga99kw/bga99kw.xml" />
 		<storeItem xmlFilename="$data/placeables/planET/bgaBunkerSilo/bgaBunkerSilo.xml" />
 		<storeItem xmlFilename="maps/map/placeables/gasStation/gasStation01.xml" />
+		<storeItem xmlFilename="$data/placeables/unia/farma/farma500/farma500.xml" />
 	</storeItems>
 </modDesc>

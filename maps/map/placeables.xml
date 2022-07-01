@@ -2,7 +2,7 @@
 <placeables>
     <!-- Animals, farm -->
 	<placeable filename="data/placeables/rudolfHormann/horseBarnBig/horseBarnBig.xml"        position="-323.70901489 164.257 2.93176913"  rotation="180 -46.62550354 179.99998474"   defaultFarmProperty="true" farmId="1"/>
-	<placeable filename="$mapdir$/maps/map/placeables/sleeptrigger/sleeptrigger.xml" position="-227.16200256 155.42399597 -142.05200195"  rotation="0 -33.86 0" defaultFarmProperty="true" age="0.000000" price="1000.000000" farmId="1" />
+	<placeable filename="$mapdir$/maps/map/placeables/sleeptrigger/sleeptrigger.xml" position="-231.76199341 155.42399597 -135.19683838"  rotation="0 -33.86 0" age="0.000000" price="1000.000000" farmId="1" />
 	<placeable  filename="$mapdir$/maps/map/placeables/pigBarnSmall/pigBarnSmall.xml" position="-575.8239 161.481 633.184" rotation="180 7.823 180" age="0.000000" price="5000.000000" farmId="1" />
 	<placeable  filename="$mapdir$/maps/map/placeables/sheepBarnSmall/sheepBarnSmall.xml" position="393.23199463 156.73599243 -251.88600159" rotation="180 0 180" age="0.000000" price="5000.000000" farmId="1" />
 	<placeable  filename="$mapdir$/maps/map/placeables/chickenBarnSmall/chickenBarnSmall.xml" position="354.36099243 157.18234253 -218.85203552" rotation="180 3.673 -180" age="0.000000" price="5000.000000" farmId="1" />
@@ -10,7 +10,7 @@
 	<placeable  filename="$mapdir$/maps/map/placeables/bunkerSilo/bunker.xml" position="-319.29400635 163.184 -232.94406128" rotation="-180 40.202 -180" age="0.000000" price="5000.000000" farmId="1" />
 	<placeable  filename="$mapdir$/maps/map/placeables/bunkerSilo/bunker.xml" position="-206.17199707 163.68200684 -246.70700073" rotation="0 -36.382 0" age="0.000000" price="5000.000000" farmId="1" />
 	<placeable  filename="$mapdir$/maps/map/placeables/cowBarnBig/cowBarnBig.xml" position="-270.11801147 164.48500061 -298.94198608" rotation="180 -47.4 -180" age="0.000000" price="5000.000000" farmId="1" />
-
+	<placeable  filename="data/placeables/unia/farma/farma500/farma500.xml" position="-217.05000305 165.166 -272.1932" rotation="0 -43.555 0" age="0.000000" price="5000.000000" farmId="1" />
 	
 	<!-- Sell points -->
 	<placeable mapBoundId="sellingStationBales"  filename="$mapdir$/maps/map/placeables/sellingStationBales/sellingStationBales.xml" position="-982.07501221 176.76467896 -230.4881897" rotation="0 19.878 0" age="0.000000" price="875000.000000" farmId="1" />

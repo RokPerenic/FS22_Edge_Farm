@@ -2,7 +2,7 @@
 
 <i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
   <Asset>
-    <Export program="GIANTS Editor 64bit" version="9.0.2"/>
+    <Export program="GIANTS Editor 64bit" version="9.0.3"/>
   </Asset>
 
   <Files>
@@ -10,7 +10,7 @@
 
 
   <Materials>
-    <Material name="lambert1" materialId="297" diffuseColor="0.494118 0.494118 0.494118 1">
+    <Material name="lambert1" materialId="122" diffuseColor="0.494118 0.494118 0.494118 1">
     </Material>
   </Materials>
 
@@ -23,45 +23,45 @@
   </Dynamics>
 
   <Scene>
-      <TransformGroup name="farmHouse01" lockedgroup="true" clipDistance="800" nodeId="317907">
-        <TransformGroup name="clearAreas" nodeId="317908">
-          <TransformGroup name="clearArea1Start" translation="-0.685516 0.107239 -6.36904" nodeId="317909">
-            <TransformGroup name="clearArea1Width" translation="0.056366 -0.110733 20.2626" nodeId="317910"/>
-            <TransformGroup name="clearArea1Height" translation="-7.05231 -0.110016 0.213177" nodeId="317911"/>
+      <TransformGroup name="farmHouse01" lockedgroup="true" clipDistance="800" nodeId="205363">
+        <TransformGroup name="clearAreas" nodeId="205364">
+          <TransformGroup name="clearArea1Start" translation="-0.685516 0.107239 -16.457" nodeId="205365">
+            <TransformGroup name="clearArea1Width" translation="0.056366 -0.110733 21.943" nodeId="205366"/>
+            <TransformGroup name="clearArea1Height" translation="-7.05231 -0.110016 0.213177" nodeId="205367"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="levelAreas" nodeId="317912">
-          <TransformGroup name="levelArea1Start" translation="-0.705536 0.106461 -6.34052" nodeId="317913">
-            <TransformGroup name="levelArea1Width" translation="0.0969849 -0.110001 19.7567" nodeId="317914"/>
-            <TransformGroup name="levelArea1Height" translation="-7.02365 -0.10936 -0.00488281" nodeId="317915"/>
+        <TransformGroup name="levelAreas" nodeId="205368">
+          <TransformGroup name="levelArea1Start" translation="-0.705536 0.106461 -16.3577" nodeId="205369">
+            <TransformGroup name="levelArea1Width" translation="0.0969849 -0.110001 22.5755" nodeId="205370"/>
+            <TransformGroup name="levelArea1Height" translation="-7.02365 -0.10936 -0.00488281" nodeId="205371"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="testAreas" nodeId="317916">
-          <TransformGroup name="testAreaStart" translation="-0.67334 0.103653 -6.30785" nodeId="317917">
-            <TransformGroup name="testAreaEnd" translation="-6.96912 -0.105637 19.5656" nodeId="317918"/>
+        <TransformGroup name="testAreas" nodeId="205372">
+          <TransformGroup name="testAreaStart" translation="-0.67334 0.103653 -16.2523" nodeId="205373">
+            <TransformGroup name="testAreaEnd" translation="-6.96912 -0.105637 23.4486" nodeId="205374"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="indoorAreas" nodeId="317919">
-          <TransformGroup name="indoorArea1Start" translation="-0.702179 0.106094 -7.93998" nodeId="317920">
-            <TransformGroup name="indoorArea1Width" translation="0.132416 -0.109634 21.8391" nodeId="317921"/>
-            <TransformGroup name="indoorArea1Height" translation="-7.5107 -0.099884 0.0849304" nodeId="317922"/>
+        <TransformGroup name="indoorAreas" nodeId="205375">
+          <TransformGroup name="indoorArea1Start" translation="-0.702179 0.106094 -16.4068" nodeId="205376">
+            <TransformGroup name="indoorArea1Width" translation="0.132416 -0.109634 21.8391" nodeId="205377"/>
+            <TransformGroup name="indoorArea1Height" translation="-7.5107 -0.099884 0.0849304" nodeId="205378"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="visuals" clipDistance="1500" nodeId="317923" lodDistance="0 110">
-          <TransformGroup name="LOD0" nodeId="317924"/>
-          <TransformGroup name="LOD1" rotation="2.50448e-06 0 0" nodeId="317925"/>
+        <TransformGroup name="visuals" clipDistance="1500" nodeId="205379" lodDistance="0 110">
+          <TransformGroup name="LOD0" nodeId="205380"/>
+          <TransformGroup name="LOD1" rotation="2.50448e-06 0 0" nodeId="205381"/>
         </TransformGroup>
-        <TransformGroup name="collisions" nodeId="317926">
-          <Shape shapeId="1" name="tipCollision" translation="-4.56209 0 2.43055" rotation="0 1.53475 0" scale="1.6977 1 1.70379" visibility="false" static="true" collisionMask="524288" nodeId="317927" materialIds="297" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <TransformGroup name="collisions" nodeId="205382">
+          <Shape shapeId="1" name="tipCollision" translation="-4.77711 -0.189809 -5.59341" rotation="0 1.535 0" scale="1.6977 1 1.70379" visibility="false" static="true" collisionMask="524288" nodeId="205383" materialIds="122" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         </TransformGroup>
-        <TransformGroup name="tipOcclusionUpdateAreaStart" translation="-0.685822 0.101868 -6.26472" nodeId="317928">
-          <TransformGroup name="tipOcclusionUpdateAreaEnd" translation="-6.95081 -0.103775 20.3796" nodeId="317929"/>
+        <TransformGroup name="tipOcclusionUpdateAreaStart" translation="-0.685822 0.101868 -16.5544" nodeId="205384">
+          <TransformGroup name="tipOcclusionUpdateAreaEnd" translation="-6.95081 -0.103775 20.3796" nodeId="205385"/>
         </TransformGroup>
-        <TransformGroup name="farmhouseFeatures" nodeId="317930">
-          <Camera name="sleepCamera" translation="25.9514 16.393 5.04857" rotation="-22.4602 82.1042 2.45213" nodeId="317931" fov="54.4322" nearClip="0.0559864" farClip="559.864" orthographicHeight="1"/>
-          <TransformGroup name="sleepTriggerMarker" translation="0.0032959 -0.0231628 8.39785" nodeId="317932"/>
-          <Shape shapeId="2" name="sleepingTrigger" translation="0.194275 0.860633 8.38184" static="true" trigger="true" collisionMask="1048576" nodeId="317933" materialIds="297" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-          <TransformGroup name="spawnPoint" translation="0.0448914 -0.0225677 8.35339" rotation="-4.97448e-15 83.1147 2.77033e-09" nodeId="317934"/>
+        <TransformGroup name="farmhouseFeatures" nodeId="205386">
+          <Camera name="sleepCamera" translation="26.6786 16.4241 -0.199692" rotation="-51.4531 86.1524 -26.6698" nodeId="205387" fov="54.4322" nearClip="0.0559864" farClip="559.864" orthographicHeight="1"/>
+          <TransformGroup name="sleepTriggerMarker" translation="-0.0378113 -0.021759 0.0064621" nodeId="205388"/>
+          <Shape shapeId="2" name="sleepingTrigger" translation="0.0341492 1.14146 -0.0151215" static="true" trigger="true" collisionMask="1048576" nodeId="205389" materialIds="122" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="spawnPoint" translation="-0.0537415 -0.021225 -0.0392532" rotation="-180 87.817 -180" nodeId="205390"/>
         </TransformGroup>
       </TransformGroup>
   </Scene>

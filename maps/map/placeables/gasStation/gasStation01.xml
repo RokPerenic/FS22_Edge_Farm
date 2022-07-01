@@ -11,11 +11,6 @@
         <brand>NONE</brand>
         <species>placeable</species>
         <category>placeableMisc</category>
-        <vertexBufferMemoryUsage>576</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>72</indexBufferMemoryUsage>
-        <textureMemoryUsage>64</textureMemoryUsage>
-        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
-        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
     </storeData>
 
     <base>

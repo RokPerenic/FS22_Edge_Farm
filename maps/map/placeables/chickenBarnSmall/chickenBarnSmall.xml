@@ -18,11 +18,6 @@
             <category>animals</category>
             <tab>chickens</tab>
         </brush>
-        <vertexBufferMemoryUsage>16128</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>4608</indexBufferMemoryUsage>
-        <textureMemoryUsage>1048576</textureMemoryUsage>
-        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
-        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
 
         <storeIconRendering>
             <settings cameraXRot="-20" cameraYRot="50" advancedBoundingBox="true"/>
