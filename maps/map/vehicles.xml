@@ -489,4 +489,164 @@
     <attachments rootVehicleId="7">
         <attachment attachmentId="8" inputJointDescIndex="1" jointIndex="1" moveDown="true"/>
     </attachments>
+    <vehicle filename="data/vehicles/kuhn/gmd4411/gmd4411.xml" id="26" isAbsolute="true" age="0.000000" price="18000.000000" farmId="1" propertyState="1" operatingTime="67.615746" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="-300.18283081055 164.31694030762 -209.8681640625" rotation="-179.40080617345 48.755553446614 -179.43387794941"/>
+        <component index="2" position="-302.23754882813 164.80816650391 -207.47114562988" rotation="-2.6985302611136 42.067609796256 1.1533836294539"/>
+        <configuration name="folding" id="1"/>
+        <boughtConfiguration name="folding" id="1"/>
+        <washable>
+            <dirtNode amount="0.009702"/>
+        </washable>
+        <wearable damage="0.000823">
+            <wearNode amount="0.001930"/>
+        </wearable>
+        <wheels lastWheelConfiguration="1"/>
+        <attacherJoints comboDirection="-1"/>
+        <foldable foldAnimTime="1.000000"/>
+        <workMode state="1"/>
+        <actionController lastDirection="-1" numActions="3">
+            <action name="turnOn" identifier="data/vehicles/kuhn/gmd4411/gmd4411.xml" lastDirection="-1"/>
+        </actionController>
+    </vehicle>
+    <vehicle filename="data/vehicles/kuhn/gmd3123F/gmd3123F.xml" id="27" isAbsolute="true" age="0.000000" price="9500.000000" farmId="1" propertyState="1" operatingTime="97.267433" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="-306.70684814453 164.42497253418 -211.98991394043" rotation="4.2519408880606 -45.959263755127 -0.4195308161114"/>
+        <component index="2" position="-306.7873840332 165.0651550293 -211.9075012207" rotation="4.250612416267 -45.959960434422 -0.41951990381698"/>
+        <configuration name="folding" id="1"/>
+        <boughtConfiguration name="folding" id="1"/>
+        <washable>
+            <dirtNode amount="0.012405"/>
+        </washable>
+        <wearable damage="0.001184">
+            <wearNode amount="0.002326"/>
+        </wearable>
+        <wheels lastWheelConfiguration="1"/>
+        <attachable lowerAnimTime="0.000000"/>
+        <attacherJoints comboDirection="-1"/>
+        <foldable foldAnimTime="1.000000"/>
+        <workMode state="1"/>
+        <actionController lastDirection="-1" numActions="3">
+            <action name="lower" identifier="data/vehicles/kuhn/gmd3123F/gmd3123F.xml" lastDirection="-1"/>
+            <action name="turnOn" identifier="data/vehicles/kuhn/gmd3123F/gmd3123F.xml" lastDirection="-1"/>
+        </actionController>
+    </vehicle>
+    <vehicle filename="data/vehicles/kuhn/gf8712/gf8712.xml" id="28" isAbsolute="true" age="0.000000" price="16000.000000" farmId="1" propertyState="1" operatingTime="85.466660" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="-309.89752197266 164.43130493164 -215.89248657227" rotation="-166.00139570123 45.02887929205 179.69679925132"/>
+        <component index="2" position="-309.36431884766 165.48590087891 -216.41952514648" rotation="-165.99937396524 45.025785216356 179.69670362867"/>
+        <component index="3" position="-310.49298095703 165.57778930664 -216.55194091797" rotation="134.43823094277 11.635039420915 81.476261099572"/>
+        <component index="4" position="-310.22933959961 166.8081817627 -216.7294921875" rotation="133.45779826855 4.4376370830071 74.465399765634"/>
+        <component index="5" position="-309.98541259766 166.37594604492 -216.33108520508" rotation="-136.88511889217 -20.037847203924 -89.618106137415"/>
+        <component index="6" position="-309.22711181641 165.56056213379 -215.28123474121" rotation="-133.83453784279 -8.0455436394147 -102.06691820171"/>
+        <component index="7" position="-309.04272460938 166.79193115234 -215.53860473633" rotation="-135.27721039928 -15.19059855375 -94.924507424355"/>
+        <component index="8" position="-309.36911010742 166.68835449219 -215.82792663574" rotation="133.29045863388 -0.65687028481582 69.648859645967"/>
+        <configuration name="wheel" id="1"/>
+        <configuration name="folding" id="1"/>
+        <boughtConfiguration name="wheel" id="1"/>
+        <boughtConfiguration name="folding" id="1"/>
+        <washable>
+            <dirtNode amount="0.011132"/>
+            <dirtNode amount="0.011132"/>
+            <dirtNode amount="0.011132"/>
+            <dirtNode amount="0.011132"/>
+            <dirtNode amount="0.011132"/>
+        </washable>
+        <wearable damage="0.001041">
+            <wearNode amount="0.027651"/>
+        </wearable>
+        <wheels lastWheelConfiguration="1"/>
+        <attachable lowerAnimTime="0.000000"/>
+        <attacherJoints comboDirection="-1"/>
+        <foldable foldAnimTime="1.000000"/>
+        <actionController lastDirection="-1" numActions="3">
+            <action name="lower" identifier="data/vehicles/kuhn/gf8712/gf8712.xml" lastDirection="-1"/>
+            <action name="turnOn" identifier="data/vehicles/kuhn/gf8712/gf8712.xml" lastDirection="-1"/>
+        </actionController>
+    </vehicle>
+    <vehicle filename="data/vehicles/krone/swadroTS970/swadroTS970.xml" id="29" isAbsolute="true" age="0.000000" price="41000.000000" farmId="1" propertyState="1" operatingTime="118.128288" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="-313.02801513672 164.55912780762 -223.07476806641" rotation="-179.64316860596 53.302324999727 179.43908255356"/>
+        <component index="2" position="-309.37399291992 165.49215698242 -225.79084777832" rotation="-179.58692882833 53.377873722136 179.59573977236"/>
+        <component index="3" position="-312.15292358398 167.0535736084 -224.75650024414" rotation="126.69584268834 0.15002243707669 89.105397987368"/>
+        <component index="4" position="-313.53527832031 165.49337768555 -222.68995666504" rotation="-179.64218505872 53.302331829916 179.43921915734"/>
+        <component index="5" position="-314.75067138672 167.10704040527 -220.71823120117" rotation="-126.69607491477 -0.19911480860234 -90.858017698204"/>
+        <configuration name="wheel" id="TRELLEBORG_DEFAULT"/>
+        <configuration name="folding" id="1"/>
+        <boughtConfiguration name="wheel" id="TRELLEBORG_DEFAULT"/>
+        <boughtConfiguration name="folding" id="1"/>
+        <washable>
+            <dirtNode amount="0.012556"/>
+            <dirtNode amount="0.293520" snowScale="0.000000"/>
+            <dirtNode amount="0.290844" snowScale="0.000000"/>
+            <dirtNode amount="0.012556" snowScale="0.000000"/>
+            <dirtNode amount="0.012556" snowScale="0.000000"/>
+            <dirtNode amount="0.012556" snowScale="0.000000"/>
+            <dirtNode amount="0.012556" snowScale="0.000000"/>
+            <dirtNode amount="0.012556" snowScale="0.000000"/>
+            <dirtNode amount="0.012556" snowScale="0.000000"/>
+            <dirtNode amount="0.012556" snowScale="0.000000"/>
+            <dirtNode amount="0.012556" snowScale="0.000000"/>
+            <dirtNode amount="0.012556" snowScale="0.000000"/>
+            <dirtNode amount="0.012556" snowScale="0.000000"/>
+            <dirtNode amount="0.012556" snowScale="0.000000"/>
+            <dirtNode amount="0.012556" snowScale="0.000000"/>
+        </washable>
+        <wearable damage="0.001438">
+            <wearNode amount="0.004067"/>
+        </wearable>
+        <licensePlates variation="1" characters="LF13AAV" colorIndex="1" placementIndex="1"/>
+        <wheels lastWheelConfiguration="1"/>
+        <attacherJoints comboDirection="-1"/>
+        <foldable foldAnimTime="1.000000"/>
+        <workMode state="1"/>
+        <actionController lastDirection="-1" numActions="4">
+            <action name="lower" identifier="data/vehicles/krone/swadroTS970/swadroTS970.xml" lastDirection="-1"/>
+            <action name="turnOn" identifier="data/vehicles/krone/swadroTS970/swadroTS970.xml" lastDirection="-1"/>
+        </actionController>
+    </vehicle>
+    <vehicle filename="data/vehicles/poettinger/faro4010D/faro4010D.xml" id="30" isAbsolute="true" age="0.000000" price="70500.000000" farmId="1" propertyState="1" operatingTime="79.289955" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="-292.13824462891 164.29565429688 -198.33557128906" rotation="178.7761580531 43.970319499008 179.74145502811"/>
+        <component index="2" position="-289.81112670898 164.96455383301 -200.74472045898" rotation="179.78540046523 43.969817480104 179.74245223573"/>
+        <configuration name="fillUnit" id="1"/>
+        <configuration name="wheel" id="TRELLEBORG_DEFAULT"/>
+        <configuration name="fillVolume" id="1"/>
+        <configuration name="trailer" id="1"/>
+        <boughtConfiguration name="fillUnit" id="1"/>
+        <boughtConfiguration name="wheel" id="TRELLEBORG_DEFAULT"/>
+        <boughtConfiguration name="fillVolume" id="1"/>
+        <boughtConfiguration name="trailer" id="1"/>
+        <washable>
+            <dirtNode amount="0.010280"/>
+            <dirtNode amount="0.289986" snowScale="0.000000"/>
+            <dirtNode amount="0.294773" snowScale="0.000000"/>
+            <dirtNode amount="0.299591" snowScale="0.000000"/>
+            <dirtNode amount="0.301478" snowScale="0.000000"/>
+            <dirtNode amount="0.010280" snowScale="0.000000"/>
+            <dirtNode amount="0.010280" snowScale="0.000000"/>
+        </washable>
+        <wearable damage="0.000965">
+            <wearNode amount="0.002333"/>
+        </wearable>
+        <licensePlates variation="1" characters="LF13AAV" colorIndex="1" placementIndex="1"/>
+        <cylindered>
+            <movingTool rotation="6.000000"/>
+        </cylindered>
+        <wheels lastWheelConfiguration="1"/>
+        <attacherJoints comboDirection="-1"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+        <actionController lastDirection="-1" numActions="2">
+            <action name="turnOn" identifier="data/vehicles/poettinger/faro4010D/faro4010D.xml" lastDirection="-1"/>
+            <action name="lowerPickup" identifier="data/vehicles/poettinger/faro4010D/faro4010D.xml" lastDirection="-1"/>
+        </actionController>
+    </vehicle>
+    <attachments rootVehicleId="2">
+        <attachment attachmentId="3" inputJointDescIndex="1" jointIndex="6" moveDown="false"/>
+    </attachments>
+    <attachments rootVehicleId="3">
+        <attachment attachmentId="4" inputJointDescIndex="1" jointIndex="1" moveDown="false"/>
+    </attachments>
+    <attachments rootVehicleId="7">
+        <attachment attachmentId="8" inputJointDescIndex="1" jointIndex="1" moveDown="true"/>
+    </attachments>
+
 </vehicles>
