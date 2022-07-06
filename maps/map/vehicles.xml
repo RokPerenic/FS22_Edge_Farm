@@ -639,9 +639,6 @@
             <action name="lowerPickup" identifier="data/vehicles/poettinger/faro4010D/faro4010D.xml" lastDirection="-1"/>
         </actionController>
     </vehicle>
-    <attachments rootVehicleId="2">
-        <attachment attachmentId="3" inputJointDescIndex="1" jointIndex="6" moveDown="false"/>
-    </attachments>
     <attachments rootVehicleId="3">
         <attachment attachmentId="4" inputJointDescIndex="1" jointIndex="1" moveDown="false"/>
     </attachments>

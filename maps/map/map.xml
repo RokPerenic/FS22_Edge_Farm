@@ -73,9 +73,9 @@
     <decoFoliages>
         <decoFoliage layerName="decoFoliage" startChannel="0" numChannels="4" mowable="true"/>
         <decoFoliage layerName="decoForest" startChannel="0" numChannels="4" mowable="true"/>
-        <decoFoliage layerName="decoBush" startChannel="0" numChannels="4" mowable="true"/>
-        <decoFoliage layerName="grass" startChannel="0" numChannels="4" mowable="true"/>
-        <mapping name="grassShort" layerName="grass" state="4" />
+        <decoFoliage layerName="decoBush" startChannel="0" numChannels="4" />
+
+        <mapping name="grassShort" layerName="decoFoliage" state="1" />
     </decoFoliages>
 
     <paintableFoliages>
