@@ -15,7 +15,7 @@
 		</animation>
 		<controls triggerNode="0" posAction="ACTIVATE_HANDTOOL" posText="action_openGate" negText="action_closeGate" />
 			<sounds>
-				<moving file="$data/sounds/prefab/gate/gateLoop.wav" loops="0" linkNode="1" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/>
+				<moving file="maps/map/audio/gate.wav" loops="0" linkNode="1" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/>
 				<posEnd file="$data/sounds/prefab/gate/gateOpened.wav" linkNode="1" volume="0.8" radius="25" innerRadius="3"/>
 				<negEnd file="$data/sounds/prefab/gate/gateClosed.wav" linkNode="1" volume="0.8" radius="25" innerRadius="3"/>
 			</sounds>

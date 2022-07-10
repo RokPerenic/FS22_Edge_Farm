@@ -121,8 +121,11 @@
         <farmland id="118" priceScale="0.7" npcName="NPC_US_09" showOnFarmlandsScreen="false" defaultFarmProperty="true"/>
 		<farmland id="119" priceScale="0.7" npcName="NPC_US_08" />
 		<farmland id="120" priceScale="0.7" npcName="NPC_US_08" />
-		<farmland id="125" priceScale="0.7" npcName="NPC_US_08" />
-        <farmland id="230" priceScale="0.7" npcName="NPC_US_08" />
-
+		<farmland id="121" priceScale="0.5" npcName="NPC_US_08" />
+		<farmland id="122" priceScale="0.5" npcName="NPC_US_08" />
+		<farmland id="123" priceScale="0.5" npcName="NPC_US_08" />
+		<farmland id="124" priceScale="0.5" npcName="NPC_US_08" />
+		<farmland id="125" priceScale="0.5" npcName="NPC_US_08" />
+        <farmland id="126" priceScale="0.7" npcName="NPC_US_08" />
     </farmlands>
 </map>
